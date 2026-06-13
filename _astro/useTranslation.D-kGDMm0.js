@@ -1,1 +1,0 @@
-import{u as a}from"./index.RTTH55m1.js";import{r as s}from"./index.BIRwh3HZ.js";import{t as e}from"./utils.B8t4dGMs.js";import{$ as n}from"./locale.D6NOdif9.js";function p(){const r=a(n);return{t:s.useCallback((t,o)=>e(r,t,o),[r]),locale:r}}export{p as u};
