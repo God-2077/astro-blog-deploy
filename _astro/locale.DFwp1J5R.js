@@ -1,0 +1,1 @@
+import{d as e}from"./config.D1fzGu70.js";import{a as o}from"./utils.CoHW4XRp.js";import{a as t}from"./index.3whys8t3.js";const n=t(typeof window<"u"?o(window.location.pathname):e);if(typeof document<"u"){const a=()=>n.set(o(window.location.pathname));document.addEventListener("astro:page-load",a)}export{n as $};

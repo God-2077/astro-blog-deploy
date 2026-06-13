@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /api/
+Allow: /
+Sitemap: https://blog.ksable.top/sitemap-index.xml
