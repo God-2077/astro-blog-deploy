@@ -1,26 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-06-14</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-14</guid><description>好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。
-一个公开仓库(astro-blog)，一个私有仓库(astro-blog-content)，通过自动化流程构建博客，构建产物推送到 astro-blog-deploy 仓库。
-本地开发，先克隆 astro-blog 仓库，再克隆</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;p&gt;好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。&lt;/p&gt;
-&lt;p&gt;一个公开仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;)，一个私有仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog-content&lt;/a&gt;)，通过自动化流程构建博客，构建产物推送到 &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-deploy&lt;/a&gt; 仓库。&lt;/p&gt;
-&lt;p&gt;本地开发，先克隆 astro-blog 仓库，再克隆 astro-blog-content 仓库，用软链接挂载博客文章等资源。&lt;/p&gt;
-&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 期末 · C</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">ja:ssn/碎碎念-期末-c</guid><description>2026.5.15.
-今天上晚自习前，天下起了大雨。
-（这段时间，出门要小心，因为天上可能突降暴雨）
-很多人来教室时，都是穿拖鞋。阮也不意外。
-她穿着件短袖，露出那光滑的手臂。裤子刚挽到膝盖处，恰到好处地将小腿裸露在外面。
-她衣着单薄，给人一种弱弱的感觉，激起人的保护欲。
-令她在我眼中，有些诱人。</description><pubDate>Fri, 15 May 2026 15:03:36 GMT</pubDate><content:encoded>&lt;p&gt;2026.5.15.&lt;/p&gt;
-&lt;p&gt;今天上晚自习前，天下起了大雨。&lt;/p&gt;
-&lt;p&gt;（这段时间，出门要小心，因为天上可能突降暴雨）&lt;/p&gt;
-&lt;p&gt;很多人来教室时，都是穿拖鞋。阮也不意外。&lt;/p&gt;
-&lt;p&gt;她穿着件短袖，露出那光滑的手臂。裤子刚挽到膝盖处，恰到好处地将小腿裸露在外面。&lt;/p&gt;
-&lt;p&gt;她衣着单薄，给人一种弱弱的感觉，激起人的保护欲。&lt;/p&gt;
-&lt;p&gt;令她在我眼中，有些诱人。&lt;/p&gt;
-&lt;p&gt;我最近的精神状态似乎有些不太正常。&lt;/p&gt;
-&lt;p&gt;以往我对阮是没啥想法的，我视她为同辆公交车上的路人甲，是一起前往下一站的路人。&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;高考意味着新的开始，却也意味着同样多的告别与离去。&lt;/p&gt;
-&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ja:ssn/碎碎念-近日</guid><description>この記事は暗号化されています。ウェブサイトでご覧ください。</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;この記事は暗号化されています。ウェブサイトでご覧ください。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>雑記: 最近のいくつかの技術の進展に関するまとめ</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%9C%9F%E5%87%A0%E9%A1%B9%E6%8A%80%E6%9C%AF%E6%8E%A8%E8%BF%9B%E5%B0%8F%E7%BB%93</link><guid isPermaLink="false">ja:ssn/碎碎念-近期几项技术推进小结</guid><description>本文では、ブログの複数の最適化方法について紹介しています：静的リソースのCDNによる加速、マルチリンガル翻訳と寄付ボタンの統合、ブラウザの言語検出機能の追加；また、自用のバッチ翻訳ツールfast_md_fanyi、フレンダリンクの集約プラットフォームFriendFeed、およびastro-koharuプロジェクトにおけるコードの修正貢献について共有しています。</description><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate><content:encoded>&lt;div&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><language>ja</language><item><title>つぶやき 26-06-14</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-14</guid><description>
+AIモデル deepseek-v4-flash による翻訳。
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;昨日だったかな、ブログ更新して、ソースコードと記事内容を2つのリポジトリに分割しました。&lt;/p&gt;
+&lt;p&gt;公開リポジトリ（&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;）とプライートリポジ（&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog&lt;/a&gt;）です。自動化フローでブログを構築し、成果物を &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-de&lt;/a&gt; リポジトリにプッシュします。&lt;/p&gt;
+&lt;p&gt;ローカル開発では、まず astro-blog リポジトリをクロし、次に astro-blog-content リポジトリをクローンして、シンボリックリンクでブログ記事などのリソースをマウントしますブログのソースコードと記事コンテンツの分離が完璧に実現できました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>つぶやき: 26-06-06</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-06</guid><description>
+AIモデル deepseek-v4-flash による翻訳。
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;諸先生方が惜しみなく授けてくださった受験の秘訣、一言一句には別れの際の思いやりが込められており、最後には心からの期待が添えられていました。ベルが鳴り響いた刹那、私たちは慌ただしく高校最後の授業を終え、長年にわたる寒窓での努力も、こうしてあっけなく幕を閉じました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>つぶやき：期末・C</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">ja:ssn/碎碎念-期末-c</guid><description>
+AIモデル deepseek-v4-flash による翻訳。
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。
+
+2026.5.15.</description><pubDate>Fri, 15 May 2026 15:03:36 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;2026.5.15.&lt;/p&gt;
+&lt;p&gt;今日、夜の自習の前に、空から大雨が降り出した。&lt;/p&gt;
+&lt;p&gt;（この時期、外出する際は注意が必要だ。なぜなら、空から突然の豪雨が降ってくるかもしれないからだ）&lt;/p&gt;
+&lt;p&gt;多くの人が教室に来るとき、サンダルを履いていた。阮も例外ではなかった。&lt;/p&gt;
+&lt;p&gt;彼女は半袖を着て、なめらかな腕露出させていた。ズボンはちょうど膝のあたりまでまくり上げられ、絶妙にふくらはぎを外に出していた。&lt;/p&gt;
+&lt;p&gt;その薄着の姿は、どこか弱々しい印象を与え、人に守りたくなる気持ちをそそる。&lt;/p&gt;
+&lt;p&gt;彼女は私の目には、少し魅力的に映った。&lt;/p&gt;
+&lt;p&gt;最近、私の精神状態はどうも正常ではないようだ。&lt;/p&gt;
+&lt;p&gt;以前は、阮に対して特に何の感情もなかった。私は彼女を、同じバスに乗り合わせただけの通行人Aのように見なし、一緒に次の停留所へ向かうだけの通りすがりの人間だと思っていた。&lt;/p&gt;
+&lt;p&gt;--&lt;/p&gt;
+&lt;p&gt;大学入試は新たな始まりを意味するが、同時に多くの別れや去り行くことも意味する。&lt;/p&gt;
+&lt;p&gt;私には特に親しい友人はおらず、クラスの多くの人ともそれほど親しくない。もしかすると、大学入試後、みんなはそれぞれの道を歩み、グループで旅行に出かけたりするだろう。しかし、彼らの頭の中や、スマートフォン、バムの中には、私の痕跡はどこにも残されていない。そして私は、孤独な人間がさらに孤独になるだけだ。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ja:ssn/碎碎念-近日</guid><description>この記事は暗号化されています。ウェブサイトでご覧ください。</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;この記事は暗号化されています。ウェブサイトでご覧ください。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>雑記: 最近のいくつかの技術の進展に関するまとめ</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%9C%9F%E5%87%A0%E9%A1%B9%E6%8A%80%E6%9C%AF%E6%8E%A8%E8%BF%9B%E5%B0%8F%E7%BB%93</link><guid isPermaLink="false">ja:ssn/碎碎念-近期几项技术推进小结</guid><description>本文では、ブログの複数の最適化方法について紹介しています：静的リソースのCDNによる加速、マルチリンガル翻訳と寄付ボタンの統合、ブラウザの言語検出機能の追加；また、自用のバッチ翻訳ツールfast_md_fanyi、フレンダリンクの集約プラットフォームFriendFeed、およびastro-koharuプロジェクトにおけるコードの修正貢献について共有しています。</description><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt; による翻訳。&lt;/p&gt;
 &lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-05-13 03:58&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
