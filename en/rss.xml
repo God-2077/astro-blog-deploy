@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 期末 · C</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">en:ssn/碎碎念-期末-c</guid><description>2026.5.15.
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-06-14</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-14</guid><description>好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。
+一个公开仓库(astro-blog)，一个私有仓库(astro-blog-content)，通过自动化流程构建博客，构建产物推送到 astro-blog-deploy 仓库。
+本地开发，先克隆 astro-blog 仓库，再克隆</description><pubDate>Sun, 14 Jun 2026 04:11:39 GMT</pubDate><content:encoded>&lt;p&gt;好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。&lt;/p&gt;
+&lt;p&gt;一个公开仓库(astro-blog)，一个私有仓库(astro-blog-content)，通过自动化流程构建博客，构建产物推送到 astro-blog-deploy 仓库。&lt;/p&gt;
+&lt;p&gt;本地开发，先克隆 astro-blog 仓库，再克隆 astro-blog-content 仓库，用软链接挂载博客文章等资源。&lt;/p&gt;
+&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 期末 · C</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">en:ssn/碎碎念-期末-c</guid><description>2026.5.15.
 今天上晚自习前，天下起了大雨。
 （这段时间，出门要小心，因为天上可能突降暴雨）
 很多人来教室时，都是穿拖鞋。阮也不意外。
@@ -3680,33 +3685,4 @@ AI</description><pubDate>Fri, 20 Feb 2026 08:00:00 GMT</pubDate><content:encoded
 &lt;ul&gt;
 &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/umami-software/umami/issues/4038&quot;&gt;The statistics for links and pixels on Vercel are not functioning correctly.#4038&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;PR: &lt;a href=&quot;https://github.com/umami-software/umami/pull/4043&quot;&gt;fix(collect): Fix the issue where referer might be null #4043&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>Rambling: 26-02-18</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-18</link><guid isPermaLink="false">en:ssn/碎碎念-26-02-18</guid><description>Recently, I upgraded the umami version to 3.0.3, and the upgrade process went smoothly without any issues. (Actually, I set up a completely new umami v3 and then migrated the v2 data into the new v3. I was really worried about potential issues during the v2 to v3 upgrade, so I was entirely looking forward to trying umami&apos;s pixel tracking. I had seen pixel tracking in Microsoft&apos;s promotional emails before, and after seeing that umami v3 added pixel tracking, I&apos;ve been eager to try it.)</description><pubDate>Tue, 17 Feb 2026 14:25:00 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-05-01 14:41&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Recently I upgraded the umami version to 3.0.3, and the upgrade process went smoothly with no issues.&lt;/p&gt;
-&lt;p&gt;(: Actually, I set up a completely new umami v3 and migrated the v2 data to the new v3, just afraid that upgrading from v2 to v3 might cause problems)&lt;/p&gt;
-&lt;p&gt;I was completely looking forward to umami&apos;s Pixel Tracking feature. I once saw pixel tracking in Microsoft&apos;s promotional emails, and when I saw umami v3 added pixel tracking, I wanted to try it right away.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;The upgrade process went smoothly, but then a bug occurred later.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;After the upgrade, I found that the umami links deployed on Vercel and the pixel tracking functionality were not working properly, unable to track normally.&lt;/p&gt;
-&lt;p&gt;Just opening the link or the pixel tracking link, the database didn&apos;t update the statistics, and there were no error messages.&lt;/p&gt;
-&lt;p&gt;I checked the Vercel logs for a long time and had doubts about a certain log entry.&lt;/p&gt;
-&lt;p&gt;In the /p/abc log, there was a query log from prisma, but no write log to the database.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://ik.imagekit.io/ziw9wtigz/Posts/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-18/1.png&quot; alt=&quot;image-1&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;image-1&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;At first, I thought I had turned off the triggers during the database migration, but didn&apos;t re-enable them, which caused the statistics update operation to not trigger during queries.&lt;/p&gt;
-&lt;p&gt;But eventually, I tested it locally and confirmed that there was indeed an INSERT operation to the database.&lt;/p&gt;
-&lt;p&gt;After a period of tough testing and troubleshooting, I finally determined that it was the &lt;code&gt;hasBlockedIp&lt;/code&gt; function in the &lt;code&gt;src/lib/detect.ts&lt;/code&gt; file that was causing the issue. This function is used to determine if the request comes from a blocked &lt;code&gt;IP&lt;/code&gt; address. However, when &lt;code&gt;clientIp&lt;/code&gt; is &lt;code&gt;undefined&lt;/code&gt; or an empty string, the function attempts to execute &lt;code&gt;ipaddr.parse(clientIp)&lt;/code&gt;, which causes an exception and interrupts the entire statistics process. (Actually, I still don&apos;t understand why &lt;code&gt;clientIp&lt;/code&gt; would be &lt;code&gt;undefined&lt;/code&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Note: It seems the issue has been fixed, but it hasn&apos;t been fully resolved.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I updated the production environment code again, and also submitted a &lt;a href=&quot;https://github.com/umami-software/umami/pull/4039&quot;&gt;PR&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/umami-software/umami/issues/4038&quot;&gt;The statistics for links and pixels on Vercel are not functioning correctly.#4038&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PR: &lt;a href=&quot;https://github.com/umami-software/umami/pull/4039&quot;&gt;fix: Optimize IP detection logic and add error handling#4039&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;The Chinese translation in umami v3 is mostly machine-translated, and some translations are incorrect. For example, the English word &lt;code&gt;breakdown&lt;/code&gt; was translated as &lt;code&gt;故障&lt;/code&gt;. I personally think it should be translated as &lt;code&gt;细分&lt;/code&gt;. &lt;code&gt;故障&lt;/code&gt; is nonsense. I can&apos;t tolerate some of these translation errors, so I also submitted a &lt;a href=&quot;https://github.com/umami-software/umami/pull/4037&quot;&gt;PR&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://ik.imagekit.io/ziw9wtigz/Posts/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-18/2.png&quot; alt=&quot;image-2&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;image-2&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;hr /&gt;
-&lt;p&gt;Now it seems like it&apos;s not yet reached 2/18, but I&apos;ll just post tomorrow&apos;s rambling in advance.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
