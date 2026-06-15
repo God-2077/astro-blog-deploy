@@ -1,1 +1,0 @@
-import{i}from"./announcement.COT16BnD.js";import"./site.Ck-ElynU.js";import"./index.BHh4vvK5.js";import"./index.3whys8t3.js";function t(){i()}document.readyState!=="loading"&&t();document.addEventListener("astro:page-load",t);
