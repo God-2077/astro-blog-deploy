@@ -1,29 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>🔒 碎碎念-26-07-10 恶梦</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-10-%E6%81%B6%E6%A2%A6</link><guid isPermaLink="false">ja:ssn/碎碎念-26-07-10-恶梦</guid><description>この記事は暗号化されています。ウェブサイトでご覧ください。</description><pubDate>Fri, 10 Jul 2026 05:16:34 GMT</pubDate><content:encoded>&lt;p&gt;この記事は暗号化されています。ウェブサイトでご覧ください。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸</title><link>https://blog.ksable.top/ja/post/post/posts-wallpaper-engine-%E5%A3%81%E7%BA%B8%E6%8E%A8%E8%8D%90-%E4%BA%8C%E6%AC%A1%E5%85%83%E9%9A%8F%E6%9C%BA%E5%A3%81%E7%BA%B8</link><guid isPermaLink="false">ja:post/posts-wallpaper-engine-壁纸推荐-二次元随机壁纸</guid><description>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸，支持悬浮时钟、一言（Hitokoto）展示与壁纸轮播。</description><pubDate>Fri, 10 Jul 2026 04:30:35 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;单一的壁纸，在桌面放久了，就会看腻。&lt;/p&gt;
-&lt;p&gt;所以就弄了个随机壁纸，调用 栗次元API(&lt;a href=&quot;https://t.alcy.cc/ycy&quot;&gt;https://t.alcy.cc/ycy&lt;/a&gt;) 来获取随机壁纸。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>🔒 碎碎念-26-07-10 恶梦</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-10-%E6%81%B6%E6%A2%A6</link><guid isPermaLink="false">ja:ssn/碎碎念-26-07-10-恶梦</guid><description>この記事は暗号化されています。ウェブサイトでご覧ください。</description><pubDate>Fri, 10 Jul 2026 05:16:34 GMT</pubDate><content:encoded>&lt;p&gt;この記事は暗号化されています。ウェブサイトでご覧ください。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>Wallpaper Engine 壁紙の推奨 - 二次元ランダム壁紙</title><link>https://blog.ksable.top/ja/post/post/posts-wallpaper-engine-%E5%A3%81%E7%BA%B8%E6%8E%A8%E8%8D%90-%E4%BA%8C%E6%AC%A1%E5%85%83%E9%9A%8F%E6%9C%BA%E5%A3%81%E7%BA%B8</link><guid isPermaLink="false">ja:post/posts-wallpaper-engine-壁纸推荐-二次元随机壁纸</guid><description>Wallpaper Engine ワイパーおすすめ - 二次元ランダム壁紙、浮遊時計およびhitokoto（一言）の表示、壁紙スライドショーをサポート。</description><pubDate>Fri, 10 Jul 2026 04:30:35 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-07-10 13:22&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;単一の壁紙は、デスクトップに長時間表示していると飽きてしまいます。&lt;/p&gt;
+&lt;p&gt;そのため、ランダムな壁紙を実装しました。ランダムな壁紙は、栗次元API(&lt;a href=&quot;https://t.alcy.cc/ycy)%E3%81%8B%E3%82%89%E5%8F%96%E5%BE%97%E3%81%97%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%80%82&quot;&gt;https://t.alcy.cc/ycy)から取得しています。&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/FloatingClock_Wallpaper&quot;&gt;God-2077/FloatingClock_Wallpaper&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Steam workshop: &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;3758991075&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;功能&lt;a href=&quot;#功能&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;数字时钟，带 VanillaTilt 3D 悬浮倾斜效果&lt;/li&gt;
-&lt;li&gt;一言句子展示，点击 / 按 &lt;code&gt;R&lt;/code&gt; 键手动刷新，支持自动定时刷新&lt;/li&gt;
-&lt;li&gt;壁纸轮播模式（可配置 URL 列表与间隔）&lt;/li&gt;
-&lt;li&gt;双击时钟切换装饰元素显示/隐藏&lt;/li&gt;
-&lt;li&gt;入场动画 &amp;amp; 过渡效果&lt;/li&gt;
-&lt;li&gt;支持 Wallpaper Engine 暂停/恢复：暂停后当前周期完成后自动停止一言和轮播，恢复后继续运行&lt;/li&gt;
+&lt;li&gt;数字時計、VanillaTiltによる3D浮き上がり傾斜効果を搭載&lt;/li&gt;
+&lt;li&gt;一言表示機能、クリックまたはRキーを押して手動でリフレッシュ可能。自動タイマーによるリフレッシュもサポート&lt;/li&gt;
+&lt;li&gt;壁紙スライドショーモード（URLリストとインターバルの設定が可能）&lt;/li&gt;
+&lt;li&gt;時計をダブルクリックすることで装飾要素の表示/非表示を切り替え可能&lt;/li&gt;
+&lt;li&gt;エントリー アニメーション &amp;amp; フェードイン/アウト効果&lt;/li&gt;
+&lt;li&gt;Wallpaper Engineのポーズ/再開機能に対応：ポーズ後は現在のサイクルが終わるまで一言とスライドショーを停止し、再開後は自動的に継続して動作&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;使用方法&lt;a href=&quot;#使用方法&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;下载 Steam 并安装 Wallpaper Engine&lt;/p&gt;
-&lt;p&gt;方式一，订阅 &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;[web 二次元壁纸（随机-可自定义）]&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;方式二，在 Wallpaper Engine 中点击--打开壁纸--从 Url 打开，输入 &lt;code&gt;https://god-2077.github.io/FloatingClock_Wallpaper/&lt;/code&gt;。&lt;/p&gt;
-&lt;h2&gt;技术栈&lt;a href=&quot;#技术栈&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;SteamをダウンロードしてWallpaper Engineをインストールしてください。&lt;/p&gt;
+&lt;p&gt;方法一、&lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;web 二次元壁紙（ランダム-カスタマイズ可能）&lt;/a&gt;をサブスクライブしてください。&lt;/p&gt;
+&lt;p&gt;方法二、Wallpaper Engine内で「--壁紙を開く--」をクリックし、「URLから開く」を選択して、&lt;code&gt;https://god-2077.github.io/FloatingClock_Wallpaper/&lt;/code&gt;を入力してください。&lt;/p&gt;
+&lt;h2&gt;技術スタック&lt;a href=&quot;#技術スタック&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;纯 HTML / CSS / JavaScript（无框架）&lt;/li&gt;
-&lt;li&gt;VanillaTilt（3D 倾斜效果）&lt;/li&gt;
+&lt;li&gt;純粋なHTML / CSS / JavaScript（フレームワークなし）&lt;/li&gt;
+&lt;li&gt;VanillaTilt（3D傾斜効果）&lt;/li&gt;
 &lt;li&gt;Hitokoto API（v1.hitokoto.cn）&lt;/li&gt;
 &lt;li&gt;Google Fonts（Inter / Noto Serif SC）&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;快捷操作&lt;a href=&quot;#快捷操作&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;クイック操作&lt;a href=&quot;#クイック操作&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 
 
 
@@ -45,31 +50,31 @@
 
 
 
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;操作&lt;/th&gt;&lt;th&gt;效果&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;点击一言区域&lt;/td&gt;&lt;td&gt;刷新句子&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;按 &lt;code&gt;R&lt;/code&gt; 键&lt;/td&gt;&lt;td&gt;刷新一言&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;双击时钟&lt;/td&gt;&lt;td&gt;切换装饰显示&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2&gt;工作流程&lt;a href=&quot;#工作流程&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3&gt;初始化&lt;a href=&quot;#初始化&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;操作&lt;/th&gt;&lt;th&gt;効果&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;一言エリアをクリック&lt;/td&gt;&lt;td&gt;句子を再取得&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Rキーを押す&lt;/td&gt;&lt;td&gt;一言を再取得&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;時計をダブルクリック&lt;/td&gt;&lt;td&gt;装飾要素の表示/非表示を切り替え&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2&gt;ワークフロー&lt;a href=&quot;#ワークフロー&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;初期化&lt;a href=&quot;#初期化&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;页面加载后 1 秒延迟初始化（&lt;code&gt;setTimeout&lt;/code&gt;）&lt;/li&gt;
-&lt;li&gt;若 Wallpaper Engine 属性变更事件先触发，则提前初始化&lt;/li&gt;
-&lt;li&gt;启动时钟、一言、壁纸三大模块&lt;/li&gt;
+&lt;li&gt;ページがロードされた後、1秒の遅延で初期化（&lt;code&gt;setTimeout&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;Wallpaper Engineのプロパティ変更イベントが先に発生した場合、その時点で初期化を実施&lt;/li&gt;
+&lt;li&gt;時計、一言、壁紙の3つのモジュールを起動&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;一言自动刷新&lt;a href=&quot;#一言自动刷新&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;一言自動リフレッシュ&lt;a href=&quot;#一言自動リフレッシュ&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一句 → 计时器到期 → 切换句子 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;壁纸轮播&lt;a href=&quot;#壁纸轮播&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;壁紙スライドショー&lt;a href=&quot;#壁紙スライドショー&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一张 → 计时器到期 → 淡入切换 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;暂停 / 恢复&lt;a href=&quot;#暂停--恢复&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;ポーズ / 再開&lt;a href=&quot;#ポーズ--再開&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;暂停由 Wallpaper Engine 内置 &lt;code&gt;setPaused&lt;/code&gt; 事件驱动，无需额外配置&lt;/li&gt;
-&lt;li&gt;暂停&lt;strong&gt;不会立即中断&lt;/strong&gt;当前计时周期，而是在当次切换完成后停止&lt;/li&gt;
-&lt;li&gt;恢复后自动续上计时器，继续正常运行&lt;/li&gt;
+&lt;li&gt;ポーズはWallpaper Engineの内蔵&lt;code&gt;setPaused&lt;/code&gt;イベントによって駆動され、追加の設定は不要&lt;/li&gt;
+&lt;li&gt;ポーズ後も現在のタイマー周期が終わるまで一言とスライドショーを即座に停止しない&lt;/li&gt;
+&lt;li&gt;再開後は自動的にタイマーを再開し、正常に動作し続ける&lt;/li&gt;
 &lt;/ul&gt;</content:encoded><category>category:文章</category></item><item><title>つぶやき 26-06-14</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-14</guid><description>
 AIモデル deepseek-v4-flash による翻訳。
 原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。

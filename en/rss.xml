@@ -1,29 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>🔒 碎碎念-26-07-10 恶梦</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-10-%E6%81%B6%E6%A2%A6</link><guid isPermaLink="false">en:ssn/碎碎念-26-07-10-恶梦</guid><description>This post is encrypted. Please view it on the website.</description><pubDate>Fri, 10 Jul 2026 05:16:34 GMT</pubDate><content:encoded>&lt;p&gt;This post is encrypted. Please view it on the website.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸</title><link>https://blog.ksable.top/en/post/post/posts-wallpaper-engine-%E5%A3%81%E7%BA%B8%E6%8E%A8%E8%8D%90-%E4%BA%8C%E6%AC%A1%E5%85%83%E9%9A%8F%E6%9C%BA%E5%A3%81%E7%BA%B8</link><guid isPermaLink="false">en:post/posts-wallpaper-engine-壁纸推荐-二次元随机壁纸</guid><description>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸，支持悬浮时钟、一言（Hitokoto）展示与壁纸轮播。</description><pubDate>Fri, 10 Jul 2026 04:30:35 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;单一的壁纸，在桌面放久了，就会看腻。&lt;/p&gt;
-&lt;p&gt;所以就弄了个随机壁纸，调用 栗次元API(&lt;a href=&quot;https://t.alcy.cc/ycy&quot;&gt;https://t.alcy.cc/ycy&lt;/a&gt;) 来获取随机壁纸。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>🔒 碎碎念-26-07-10 恶梦</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-10-%E6%81%B6%E6%A2%A6</link><guid isPermaLink="false">en:ssn/碎碎念-26-07-10-恶梦</guid><description>This post is encrypted. Please view it on the website.</description><pubDate>Fri, 10 Jul 2026 05:16:34 GMT</pubDate><content:encoded>&lt;p&gt;This post is encrypted. Please view it on the website.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>Wallpaper Engine Wallpaper Recommendations - Anime Random Wallpapers</title><link>https://blog.ksable.top/en/post/post/posts-wallpaper-engine-%E5%A3%81%E7%BA%B8%E6%8E%A8%E8%8D%90-%E4%BA%8C%E6%AC%A1%E5%85%83%E9%9A%8F%E6%9C%BA%E5%A3%81%E7%BA%B8</link><guid isPermaLink="false">en:post/posts-wallpaper-engine-壁纸推荐-二次元随机壁纸</guid><description>Wallpaper Engine Wallpaper Recommendations - Anime-style random wallpapers, featuring floating clock display, Hitokoto (One Word) showcase, and wallpaper slideshow.</description><pubDate>Fri, 10 Jul 2026 04:30:35 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;Translated by AI model &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-07-10 13:18&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h2&gt;Preface&lt;a href=&quot;#preface&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A single wallpaper will eventually become tiresome after being displayed on the desktop for a long time.&lt;/p&gt;
+&lt;p&gt;Therefore, I created a random wallpaper feature that uses API(&lt;a href=&quot;https://t.alcy.cc/ycy&quot;&gt;https://t.alcy.cc/ycy&lt;/a&gt;) to fetch random wallpapers.&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/FloatingClock_Wallpaper&quot;&gt;God-2077/FloatingClock_Wallpaper&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Steam workshop: &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;3758991075&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;功能&lt;a href=&quot;#功能&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Features&lt;a href=&quot;#features&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;数字时钟，带 VanillaTilt 3D 悬浮倾斜效果&lt;/li&gt;
-&lt;li&gt;一言句子展示，点击 / 按 &lt;code&gt;R&lt;/code&gt; 键手动刷新，支持自动定时刷新&lt;/li&gt;
-&lt;li&gt;壁纸轮播模式（可配置 URL 列表与间隔）&lt;/li&gt;
-&lt;li&gt;双击时钟切换装饰元素显示/隐藏&lt;/li&gt;
-&lt;li&gt;入场动画 &amp;amp; 过渡效果&lt;/li&gt;
-&lt;li&gt;支持 Wallpaper Engine 暂停/恢复：暂停后当前周期完成后自动停止一言和轮播，恢复后继续运行&lt;/li&gt;
+&lt;li&gt;Digital clock with VanillaTilt 3D tilt effect&lt;/li&gt;
+&lt;li&gt;One-sentence quote display, manually refresh by clicking or pressing &lt;code&gt;R&lt;/code&gt; key, supports automatic timed refresh&lt;/li&gt;
+&lt;li&gt;Wallpaper carousel mode (configurable URL list and interval)&lt;/li&gt;
+&lt;li&gt;Toggle decorative elements display/hide by double-clicking the clock&lt;/li&gt;
+&lt;li&gt;Entrance animation &amp;amp; transition effects&lt;/li&gt;
+&lt;li&gt;Supports Wallpaper Engine pause/resume: pauses will stop quotes and carousel after the current cycle completes, resumes will continue running normally&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;使用方法&lt;a href=&quot;#使用方法&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;下载 Steam 并安装 Wallpaper Engine&lt;/p&gt;
-&lt;p&gt;方式一，订阅 &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;[web 二次元壁纸（随机-可自定义）]&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;方式二，在 Wallpaper Engine 中点击--打开壁纸--从 Url 打开，输入 &lt;code&gt;https://god-2077.github.io/FloatingClock_Wallpaper/&lt;/code&gt;。&lt;/p&gt;
-&lt;h2&gt;技术栈&lt;a href=&quot;#技术栈&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Usage&lt;a href=&quot;#usage&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Download and install Steam and Wallpaper Engine&lt;/p&gt;
+&lt;p&gt;Method one, subscribe to &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;[web 2D wallpaper (random-customizable)]&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Method two, click -- Open Wallpaper -- Open from URL in Wallpaper Engine, enter &lt;code&gt;https://god-2077.github.io/FloatingClock_Wallpaper/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Technology Stack&lt;a href=&quot;#technology-stack&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;纯 HTML / CSS / JavaScript（无框架）&lt;/li&gt;
-&lt;li&gt;VanillaTilt（3D 倾斜效果）&lt;/li&gt;
-&lt;li&gt;Hitokoto API（v1.hitokoto.cn）&lt;/li&gt;
-&lt;li&gt;Google Fonts（Inter / Noto Serif SC）&lt;/li&gt;
+&lt;li&gt;Pure HTML / CSS / JavaScript (no framework)&lt;/li&gt;
+&lt;li&gt;VanillaTilt (3D tilt effect)&lt;/li&gt;
+&lt;li&gt;Hitokoto API (v1.hitokoto.cn)&lt;/li&gt;
+&lt;li&gt;Google Fonts (Inter / Noto Serif SC)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;快捷操作&lt;a href=&quot;#快捷操作&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h2&gt;Shortcut Operations&lt;a href=&quot;#shortcut-operations&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 
 
 
@@ -45,31 +50,31 @@
 
 
 
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;操作&lt;/th&gt;&lt;th&gt;效果&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;点击一言区域&lt;/td&gt;&lt;td&gt;刷新句子&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;按 &lt;code&gt;R&lt;/code&gt; 键&lt;/td&gt;&lt;td&gt;刷新一言&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;双击时钟&lt;/td&gt;&lt;td&gt;切换装饰显示&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2&gt;工作流程&lt;a href=&quot;#工作流程&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;h3&gt;初始化&lt;a href=&quot;#初始化&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Operation&lt;/th&gt;&lt;th&gt;Effect&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Click on the quote area&lt;/td&gt;&lt;td&gt;Refresh the sentence&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Press &lt;code&gt;R&lt;/code&gt; key&lt;/td&gt;&lt;td&gt;Refresh the quote&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Double-click the clock&lt;/td&gt;&lt;td&gt;Toggle decorative elements display&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2&gt;Workflow&lt;a href=&quot;#workflow&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;Initialization&lt;a href=&quot;#initialization&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ol&gt;
-&lt;li&gt;页面加载后 1 秒延迟初始化（&lt;code&gt;setTimeout&lt;/code&gt;）&lt;/li&gt;
-&lt;li&gt;若 Wallpaper Engine 属性变更事件先触发，则提前初始化&lt;/li&gt;
-&lt;li&gt;启动时钟、一言、壁纸三大模块&lt;/li&gt;
+&lt;li&gt;Delay initialization by 1 second after page load (&lt;code&gt;setTimeout&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;If Wallpaper Engine property change event triggers first, initialize earlier&lt;/li&gt;
+&lt;li&gt;Start clock, quote, and wallpaper modules at launch&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3&gt;一言自动刷新&lt;a href=&quot;#一言自动刷新&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Auto Refresh of Quotes&lt;a href=&quot;#auto-refresh-of-quotes&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一句 → 计时器到期 → 切换句子 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;壁纸轮播&lt;a href=&quot;#壁纸轮播&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Wallpaper Carousel&lt;a href=&quot;#wallpaper-carousel&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一张 → 计时器到期 → 淡入切换 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3&gt;暂停 / 恢复&lt;a href=&quot;#暂停--恢复&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;h3&gt;Pause / Resume&lt;a href=&quot;#pause--resume&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;暂停由 Wallpaper Engine 内置 &lt;code&gt;setPaused&lt;/code&gt; 事件驱动，无需额外配置&lt;/li&gt;
-&lt;li&gt;暂停&lt;strong&gt;不会立即中断&lt;/strong&gt;当前计时周期，而是在当次切换完成后停止&lt;/li&gt;
-&lt;li&gt;恢复后自动续上计时器，继续正常运行&lt;/li&gt;
+&lt;li&gt;Paused by Wallpaper Engine&apos;s built-in &lt;code&gt;setPaused&lt;/code&gt; event, no additional configuration needed&lt;/li&gt;
+&lt;li&gt;Pause &lt;strong&gt;does not immediately interrupt&lt;/strong&gt; the current timing cycle, but stops after the current switch completes&lt;/li&gt;
+&lt;li&gt;Automatically resumes the timer upon restoration, continuing normal operation&lt;/li&gt;
 &lt;/ul&gt;</content:encoded><category>category:文章</category></item><item><title>Ramblings: 26-06-14</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-14</guid><description>
 Translated by AI model deepseek-v4-flash.
 Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28.
