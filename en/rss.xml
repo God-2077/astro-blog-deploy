@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>Ramblings: 26-06-14</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-14</guid><description>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸</title><link>https://blog.ksable.top/en/post/post/posts-wallpaper-engine-%E5%A3%81%E7%BA%B8%E6%8E%A8%E8%8D%90-%E4%BA%8C%E6%AC%A1%E5%85%83%E9%9A%8F%E6%9C%BA%E5%A3%81%E7%BA%B8</link><guid isPermaLink="false">en:post/posts-wallpaper-engine-壁纸推荐-二次元随机壁纸</guid><description>Wallpaper Engine 壁纸推荐 - 二次元随机壁纸，支持悬浮时钟、一言（Hitokoto）展示与壁纸轮播。</description><pubDate>Fri, 10 Jul 2026 04:30:35 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;单一的壁纸，在桌面放久了，就会看腻。&lt;/p&gt;
+&lt;p&gt;所以就弄了个随机壁纸，调用 栗次元API(&lt;a href=&quot;https://t.alcy.cc/ycy&quot;&gt;https://t.alcy.cc/ycy&lt;/a&gt;) 来获取随机壁纸。&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/FloatingClock_Wallpaper&quot;&gt;God-2077/FloatingClock_Wallpaper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Steam workshop: &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;3758991075&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;功能&lt;a href=&quot;#功能&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;数字时钟，带 VanillaTilt 3D 悬浮倾斜效果&lt;/li&gt;
+&lt;li&gt;一言句子展示，点击 / 按 &lt;code&gt;R&lt;/code&gt; 键手动刷新，支持自动定时刷新&lt;/li&gt;
+&lt;li&gt;壁纸轮播模式（可配置 URL 列表与间隔）&lt;/li&gt;
+&lt;li&gt;双击时钟切换装饰元素显示/隐藏&lt;/li&gt;
+&lt;li&gt;入场动画 &amp;amp; 过渡效果&lt;/li&gt;
+&lt;li&gt;支持 Wallpaper Engine 暂停/恢复：暂停后当前周期完成后自动停止一言和轮播，恢复后继续运行&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;使用方法&lt;a href=&quot;#使用方法&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;下载 Steam 并安装 Wallpaper Engine&lt;/p&gt;
+&lt;p&gt;方式一，订阅 &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3758991075&quot;&gt;[web 二次元壁纸（随机-可自定义）]&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;方式二，在 Wallpaper Engine 中点击--打开壁纸--从 Url 打开，输入 &lt;code&gt;https://god-2077.github.io/FloatingClock_Wallpaper/&lt;/code&gt;。&lt;/p&gt;
+&lt;h2&gt;技术栈&lt;a href=&quot;#技术栈&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;纯 HTML / CSS / JavaScript（无框架）&lt;/li&gt;
+&lt;li&gt;VanillaTilt（3D 倾斜效果）&lt;/li&gt;
+&lt;li&gt;Hitokoto API（v1.hitokoto.cn）&lt;/li&gt;
+&lt;li&gt;Google Fonts（Inter / Noto Serif SC）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;快捷操作&lt;a href=&quot;#快捷操作&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;操作&lt;/th&gt;&lt;th&gt;效果&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;点击一言区域&lt;/td&gt;&lt;td&gt;刷新句子&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;按 &lt;code&gt;R&lt;/code&gt; 键&lt;/td&gt;&lt;td&gt;刷新一言&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;双击时钟&lt;/td&gt;&lt;td&gt;切换装饰显示&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2&gt;工作流程&lt;a href=&quot;#工作流程&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;初始化&lt;a href=&quot;#初始化&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;页面加载后 1 秒延迟初始化（&lt;code&gt;setTimeout&lt;/code&gt;）&lt;/li&gt;
+&lt;li&gt;若 Wallpaper Engine 属性变更事件先触发，则提前初始化&lt;/li&gt;
+&lt;li&gt;启动时钟、一言、壁纸三大模块&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;一言自动刷新&lt;a href=&quot;#一言自动刷新&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一句 → 计时器到期 → 切换句子 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;壁纸轮播&lt;a href=&quot;#壁纸轮播&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;计时器开始 → 预加载下一张 → 计时器到期 → 淡入切换 → [检查暂停]&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  ├─ 未暂停 → 预加载 → 计时器开始 → 循环&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  └─ 已暂停 → 标记 pending，停止&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;                ↓ WE 恢复 (setPaused)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;             预加载 → 计时器开始 → 切换 → [检查暂停] → 循环&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;暂停 / 恢复&lt;a href=&quot;#暂停--恢复&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;暂停由 Wallpaper Engine 内置 &lt;code&gt;setPaused&lt;/code&gt; 事件驱动，无需额外配置&lt;/li&gt;
+&lt;li&gt;暂停&lt;strong&gt;不会立即中断&lt;/strong&gt;当前计时周期，而是在当次切换完成后停止&lt;/li&gt;
+&lt;li&gt;恢复后自动续上计时器，继续正常运行&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><category>category:文章</category></item><item><title>Ramblings: 26-06-14</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-14</guid><description>
 Translated by AI model deepseek-v4-flash.
 Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28.
 AI</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;div&gt;
@@ -3663,42 +3735,4 @@ AI</description><pubDate>Fri, 20 Feb 2026 08:00:00 GMT</pubDate><content:encoded
 &lt;span&gt;&lt;span&gt; * ................................&amp;amp;&amp;amp;......................&amp;amp;&amp;amp;.......&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt; * .................................&amp;amp;&amp;amp;..............................&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt; * ..................................&amp;amp;..............................&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt; */&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>Rambling: 26-02-18-2</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-18-2</link><guid isPermaLink="false">en:ssn/碎碎念-26-02-18-2</guid><description>I mentioned in my previous miscellaneous notes that there was a bug in the newly added link tracking (Link Tracking) and pixel tracking (Pixel Tracking) features of umami v3, and I attempted to fix it. Today I discovered that the bug wasn&apos;t completely resolved; sometimes pixel tracking data is still not recorded at all. Why did I think it was fixed yesterday? Because I found that after turning off IGNORE_IP, I opened the tracking links several times in the browser without any issues. I assumed the problem was with the IGNORE_IP code. After fixing IGNORE_IP, opening the tracking links in the browser could normally record the data. That&apos;s how I thought I had identified the issue.</description><pubDate>Wed, 18 Feb 2026 07:35:00 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-05-01 03:00&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;我在上篇碎碎念里提到了 umami v3 新增的链接追踪（Link Tracking）、像素追踪（Pixel Tracking）有 Bug，也尝试修复了一下。&lt;/p&gt;
-&lt;p&gt;今天发现，该 Bug 其实并没有完全修复，有时还是压根就没有记录到像素追踪的数据。&lt;/p&gt;
-&lt;p&gt;为什么昨天就以为修复了呢？因为我发现关了 &lt;code&gt;IGNORE_IP&lt;/code&gt; 后，在浏览器打开了几次跟踪链接，都没有问题。就以为是 &lt;code&gt;IGNORE_IP&lt;/code&gt; 的代码出了问题。修复了 &lt;code&gt;IGNORE_IP&lt;/code&gt; 后，在浏览器打开跟踪链接，就可以正常记录到数据了。就这么以为找出了问题所在了。&lt;/p&gt;
-&lt;p&gt;然后今天我在无痕模式下打开跟踪链接，发现都没有记录到追踪的数据。又在 itdog 上测试了一下，看到统计数据还是 0。&lt;/p&gt;
-&lt;p&gt;然后炸毛了，这啥鬼！&lt;/p&gt;
-&lt;p&gt;再去翻看那鬼代码，不断地打日志(log)，&lt;/p&gt;
-&lt;p&gt;在 &lt;code&gt;src\app\api\send\route.ts&lt;/code&gt; 里，看到 &lt;code&gt;await parseRequest(request, schema, { skipAuth: true })&lt;/code&gt; 返回了个 &lt;code&gt;{error}&lt;/code&gt;，再继续在 &lt;code&gt;parseRequest&lt;/code&gt; 的实现里打日志(log)，发现是里面的 &lt;code&gt;schema.safeParse(isGet ? query : body)&lt;/code&gt; 抛出了错误。从打的日志中可看到 &lt;code&gt;&quot;message&quot;: &quot;Invalid input: expected string, received null&quot;&lt;/code&gt;。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;2026-02-18&lt;/span&gt;&lt;span&gt; 05:59:02.065&lt;/span&gt;&lt;span&gt; [error]&lt;/span&gt;&lt;span&gt; 2026-02-18T05:59:02.063Z&lt;/span&gt;&lt;span&gt; umami:my {&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;  success: &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;  error:&lt;/span&gt;&lt;span&gt; Error&lt;/span&gt;&lt;span&gt; [ZodError]: [&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    {&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      &quot;expected&quot;&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;&quot;string&quot;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      &quot;code&quot;&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;&quot;invalid_type&quot;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      &quot;path&quot;&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        &quot;payload&quot;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        &quot;referrer&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      ],&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      &quot;message&quot;&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;&quot;Invalid input: expected string, received null&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;  ]&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at new ZodError (.next/server/chunks/[root-of-the-server]__e72b30ae._.js:1:8143)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at &amp;lt;unknown&amp;gt; (.next/server/chunks/[root-of-the-server]__e72b30ae._.js:1:21935)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at e.safeParse (.next/server/chunks/[root-of-the-server]__e72b30ae._.js:20:8168)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at h (.next/server/chunks/[root-of-the-server]__e72b30ae._.js:1859:308008)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at async E (.next/server/chunks/[root-of-the-server]__4217576a._.js:11:35752)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at async u (.next/server/chunks/[root-of-the-server]__68667959._.js:1:1731)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;      at async u (.next/server/chunks/[root-of-the-server]__68667959._.js:1:4926)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;到这里就可以看出，是上游的 &lt;code&gt;payload.referrer&lt;/code&gt; 有问题，是 &lt;code&gt;null&lt;/code&gt;。没检查 &lt;code&gt;referrer&lt;/code&gt; 是否为空，就直接用了它。毕竟浏览器等不一定会发送 &lt;code&gt;referrer&lt;/code&gt;，（例如 QQ 邮箱就不会发送 &lt;code&gt;referrer&lt;/code&gt;）。&lt;/p&gt;
-&lt;p&gt;修改了 &lt;code&gt;src\app$(collect)$(p/q)$[slug]\route.ts&lt;/code&gt; 的代码，应该 Bug 修复了吧？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Issue: &lt;a href=&quot;https://github.com/umami-software/umami/issues/4038&quot;&gt;The statistics for links and pixels on Vercel are not functioning correctly.#4038&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PR: &lt;a href=&quot;https://github.com/umami-software/umami/pull/4043&quot;&gt;fix(collect): Fix the issue where referer might be null #4043&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;span&gt;&lt;span&gt; */&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
