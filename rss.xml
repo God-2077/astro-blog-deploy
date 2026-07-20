@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: 科目一 · 道路交通安全违法记分笔记</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-%E7%A7%91%E7%9B%AE%E4%B8%80-%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%9D%E6%B3%95%E8%AE%B0%E5%88%86%E7%AC%94%E8%AE%B0</link><guid isPermaLink="false">note/便笺-科目一-道路交通安全违法记分笔记</guid><description>
+本文基于 公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行） 进行整理。不能保证所有内容的准确性。若有错误，请以官方法规为准。
+
+
  依据：公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行）
- 分值：12分 / 9分 / 6分 / 3分 / 1分
- 记分周期：12个月，满分12分
-
-
- 记分分值总览</description><pubDate>Sun, 19 Jul 2026 18:05:30 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+ 分值：12分 / 9分 / 6分 /</description><pubDate>Sun, 19 Jul 2026 18:05:30 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;本文基于 &lt;a href=&quot;https://www.gov.cn/gongbao/content/2022/content_5679697.htm&quot;&gt;公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行）&lt;/a&gt; 进行整理。不能保证所有内容的准确性。若有错误，请以&lt;a href=&quot;https://www.gov.cn/gongbao/content/2022/content_5679697.htm&quot;&gt;官方法规&lt;/a&gt;为准。&lt;/p&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
 &lt;p&gt; 依据：&lt;a href=&quot;https://www.gov.cn/gongbao/content/2022/content_5679697.htm&quot;&gt;公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行）&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt; 分值：12分 / 9分 / 6分 / 3分 / 1分&lt;/p&gt;
 &lt;p&gt; 记分周期：12个月，满分12分&lt;/p&gt;
@@ -219,7 +221,7 @@
 
 
 
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;序号&lt;/th&gt;&lt;th&gt;违法行为&lt;/th&gt;&lt;th&gt;记忆口诀&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/公路客运/旅游客运&lt;/strong&gt;超载&lt;strong&gt;未达20%&lt;/strong&gt;，或&lt;strong&gt;7座以上&lt;/strong&gt;超&lt;strong&gt;20%&lt;sub&gt;50%&lt;/sub&gt;&lt;/strong&gt;，或&lt;strong&gt;其他载客汽车&lt;/strong&gt;超&lt;strong&gt;50%100%&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 中度过载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/中型以上客货车/危险品车&lt;/strong&gt;在高速/快速路超速&lt;strong&gt;未达20%&lt;/strong&gt;，或在普通路超速&lt;strong&gt;20%~50%&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;⚡ 中度超速&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/客货车/危险品车以外&lt;/strong&gt;的机动车在高速/快速路超速&lt;strong&gt;20%~50%&lt;/strong&gt;，或在普通路超速&lt;strong&gt;50%以上&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 小车超速&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;载货汽车超载&lt;strong&gt;超过最大允许总质量50%以上&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 严重超货&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;运载&lt;strong&gt;爆炸/易燃易爆/剧毒/放射性&lt;/strong&gt;等危险品，&lt;strong&gt;未按指定时间路线速度&lt;/strong&gt;行驶或未悬挂警示标志&lt;/td&gt;&lt;td&gt;☢️ 危险品违规&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;运载&lt;strong&gt;超限不可解体&lt;/strong&gt;物品，&lt;strong&gt;未按指定时间路线速度&lt;/strong&gt;或未挂警示标志&lt;/td&gt;&lt;td&gt; 超限违规&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;运输危险化学品&lt;strong&gt;未经批准进入禁行区域&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 擅闯禁区&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;&lt;strong&gt;不按交通信号灯指示通行&lt;/strong&gt;（闯红灯）&lt;/td&gt;&lt;td&gt; 闯红灯&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;&lt;strong&gt;驾驶证被暂扣/扣留期间&lt;/strong&gt;驾驶机动车&lt;/td&gt;&lt;td&gt; 无证驾驶&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;造成&lt;strong&gt;致人轻微伤或财产损失&lt;/strong&gt;交通事故后&lt;strong&gt;逃逸&lt;/strong&gt;，尚不构成犯罪&lt;/td&gt;&lt;td&gt; 轻微逃逸&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;在&lt;strong&gt;高速/快速路&lt;/strong&gt;上&lt;strong&gt;违法占用应急车道&lt;/strong&gt;行驶&lt;/td&gt;&lt;td&gt; 占应急道&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;序号&lt;/th&gt;&lt;th&gt;违法行为&lt;/th&gt;&lt;th&gt;记忆口诀&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/公路客运/旅游客运&lt;/strong&gt;超载&lt;strong&gt;未达20%&lt;/strong&gt;，或&lt;strong&gt;7座以上&lt;/strong&gt;超&lt;strong&gt;20%&lt;sub&gt;50%&lt;/sub&gt;&lt;/strong&gt;，或&lt;strong&gt;其他载客汽车&lt;/strong&gt;超&lt;strong&gt;50%100%&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 中度过载&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/中型以上客货车/危险品车&lt;/strong&gt;在高速/快速路超速&lt;strong&gt;未达20%&lt;/strong&gt;，或在普通路超速&lt;strong&gt;20%~50%&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;⚡ 中度超速&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td&gt;&lt;strong&gt;校车/客货车/危险品车以外&lt;/strong&gt;的机动车在高速/快速路超速&lt;strong&gt;20%~50%&lt;/strong&gt;，或在普通路超速&lt;strong&gt;50%以上&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 小车超速&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td&gt;载货汽车超载&lt;strong&gt;超过最大允许总质量50%以上&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 严重超货&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;5&lt;/td&gt;&lt;td&gt;运载&lt;strong&gt;爆炸/易燃易爆/剧毒/放射性&lt;/strong&gt;等危险品，&lt;strong&gt;未按指定时间路线速度&lt;/strong&gt;行驶或未悬挂警示标志&lt;/td&gt;&lt;td&gt;☢️ 危险品违规&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;6&lt;/td&gt;&lt;td&gt;运载&lt;strong&gt;超限不可解体&lt;/strong&gt;物品，&lt;strong&gt;未按指定时间路线速度&lt;/strong&gt;或未挂警示标志&lt;/td&gt;&lt;td&gt; 超限违规&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;运输危险化学品&lt;strong&gt;未经批准进入禁行区域&lt;/strong&gt;&lt;/td&gt;&lt;td&gt; 擅闯禁区&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;8&lt;/td&gt;&lt;td&gt;&lt;strong&gt;不按交通信号灯指示通行&lt;/strong&gt;（闯红灯）&lt;/td&gt;&lt;td&gt; 闯红灯&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;9&lt;/td&gt;&lt;td&gt;&lt;strong&gt;驾驶证被暂扣/扣留期间&lt;/strong&gt;驾驶机动车&lt;/td&gt;&lt;td&gt; 被扣仍驾&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;td&gt;造成&lt;strong&gt;致人轻微伤或财产损失&lt;/strong&gt;交通事故后&lt;strong&gt;逃逸&lt;/strong&gt;，尚不构成犯罪&lt;/td&gt;&lt;td&gt; 轻微逃逸&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11&lt;/td&gt;&lt;td&gt;在&lt;strong&gt;高速/快速路&lt;/strong&gt;上&lt;strong&gt;违法占用应急车道&lt;/strong&gt;行驶&lt;/td&gt;&lt;td&gt; 占应急道&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;hr /&gt;
 &lt;h2&gt; 一次记 3 分（共 15 条）&lt;a href=&quot;#-一次记-3-分共-15-条&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -382,6 +384,8 @@
 &lt;h3&gt; 超载记忆链条&lt;a href=&quot;#-超载记忆链条&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;div&gt;
 &lt;p&gt;超载（含客车超员、货车超载）的记分标准，高速与普通道路完全一样，不做区分。&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
 &lt;/div&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;校车/公路客运/旅游客运：&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  超 20%以上          → 12分&lt;/span&gt;&lt;/span&gt;
@@ -564,8 +568,9 @@
 &lt;/blockquote&gt;
 &lt;h2&gt;更新&lt;a href=&quot;#更新&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;速记：7座以上载客汽车 超载 100%以上 → 12分&lt;/li&gt;
-&lt;li&gt;速记：「高速/快速路」专属扣分 低于最低时速(&lt;strong&gt;不包括快速路&lt;/strong&gt;) → 3分&lt;/li&gt;
+&lt;li&gt;修正：速记 → 7座以上载客汽车 → 超载 100%以上 → 12分&lt;/li&gt;
+&lt;li&gt;修正：速记 → 「高速/快速路」专属扣分 → 低于最低时速(&lt;strong&gt;不包括快速路&lt;/strong&gt;) → 3分&lt;/li&gt;
+&lt;li&gt;修正：笔记 6 分第 9 条的记忆口诀写为「无证驾驶」，但该条款的准确含义是驾驶证被暂扣 / 扣留期间驾驶机动车。现在修正为「被扣仍驾」&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div&gt;
 &lt;p&gt;保我过科目一吧 &lt;/p&gt;
