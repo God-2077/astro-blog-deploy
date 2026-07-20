@@ -385,7 +385,31 @@
 &lt;div&gt;
 &lt;p&gt;超载（含客车超员、货车超载）的记分标准，高速与普通道路完全一样，不做区分。&lt;/p&gt;
 &lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;超载&lt;/th&gt;&lt;th&gt;记分标准&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;超载≥50%&lt;/td&gt;&lt;td&gt;记 6 分&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;30%≤超载＜50%&lt;/td&gt;&lt;td&gt;记 3 分&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;超载＜30%&lt;/td&gt;&lt;td&gt;记 1 分&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h3&gt; 超员记忆链条&lt;a href=&quot;#-超员记忆链条&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;div&gt;
+&lt;p&gt;超载（含客车超员、货车超载）的记分标准，高速与普通道路完全一样，不做区分。&lt;/p&gt;
 &lt;/div&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;校车/公路客运/旅游客运：&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  超 20%以上          → 12分&lt;/span&gt;&lt;/span&gt;
@@ -571,6 +595,7 @@
 &lt;li&gt;修正：速记 → 7座以上载客汽车 → 超载 100%以上 → 12分&lt;/li&gt;
 &lt;li&gt;修正：速记 → 「高速/快速路」专属扣分 → 低于最低时速(&lt;strong&gt;不包括快速路&lt;/strong&gt;) → 3分&lt;/li&gt;
 &lt;li&gt;修正：笔记 6 分第 9 条的记忆口诀写为「无证驾驶」，但该条款的准确含义是驾驶证被暂扣 / 扣留期间驾驶机动车。现在修正为「被扣仍驾」&lt;/li&gt;
+&lt;li&gt;修正：超载与超员的知识混淆，现在明确区分。并补上遗漏的超载记忆链条。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div&gt;
 &lt;p&gt;保我过科目一吧 &lt;/p&gt;
