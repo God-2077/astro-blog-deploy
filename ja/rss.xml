@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>便笺: 科目一 · 道路交通安全违法记分笔记</title><link>https://blog.ksable.top/ja/post/note/%E4%BE%BF%E7%AC%BA-%E7%A7%91%E7%9B%AE%E4%B8%80-%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%9D%E6%B3%95%E8%AE%B0%E5%88%86%E7%AC%94%E8%AE%B0</link><guid isPermaLink="false">ja:note/便笺-科目一-道路交通安全违法记分笔记</guid><description>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-07-21</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-21</link><guid isPermaLink="false">ja:ssn/碎碎念-26-07-21</guid><description>嗷嗷，终于过科目一了
+考了两次才过 
+我觉得考科目一主要是看运气，当然 要是把所有题目都做背下了运气好与坏也影响不了最后的结果了。
+
+第一次考前，在 ”驾校一点通“ 上模拟考的都是九十几，听网上说 考试 的题都比 模拟 考简单多。
+所以呢，就去考了。
+但谁知，咋 考试 的题都比 模拟考</description><pubDate>Tue, 21 Jul 2026 15:33:39 GMT</pubDate><content:encoded>&lt;p&gt;嗷嗷，终于过科目一了&lt;/p&gt;
+&lt;p&gt;考了两次才过 &lt;/p&gt;
+&lt;p&gt;我觉得考科目一主要是看运气，当然 要是把所有题目都做背下了运气好与坏也影响不了最后的结果了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;第一次考前，在 ”驾校一点通“ 上模拟考的都是九十几，听网上说 考试 的题都比 模拟 考简单多。&lt;/p&gt;
+&lt;p&gt;所以呢，就去考了。&lt;/p&gt;
+&lt;p&gt;但谁知，咋 考试 的题都比 模拟考 难多了，都不是一个层次的。&lt;/p&gt;
+&lt;p&gt;给我出了一大堆 记分、罚款 的难题，哭死我。(大概有三十多道，补考也是那么多)&lt;/p&gt;
+&lt;p&gt;还因为平时刷题刷傻了， 模拟 考时，那题 来来回回 就那几道，容易把答案背下来，但知识点却没背。就是刷多了，读了一半的题目内容，手自动点到正确的选项了。&lt;/p&gt;
+&lt;p&gt;回家后，被我爸给骂死了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;第二次考前，我就不刷题了，死记 《道路交通安全违法行为记分管理办法》 以及各种处罚 等。&lt;/p&gt;
+&lt;p&gt;感觉我快把那《记分管理办法》 背下来了。~ ~ ~&lt;/p&gt;
+&lt;p&gt;然后就去考了。考时特别紧张，感觉特别冷。&lt;/p&gt;
+&lt;p&gt;万幸，我考过了，99分。&lt;/p&gt;
+&lt;p&gt;~~但我好想骂人，为啥这次出的题那么简单。我死记的记分、罚款题，它才出了不到6道。啊啊啊啊啊 ~ ~ ~~&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-4</category></item><item><title>便笺: 科目一 · 道路交通安全违法记分笔记</title><link>https://blog.ksable.top/ja/post/note/%E4%BE%BF%E7%AC%BA-%E7%A7%91%E7%9B%AE%E4%B8%80-%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%9D%E6%B3%95%E8%AE%B0%E5%88%86%E7%AC%94%E8%AE%B0</link><guid isPermaLink="false">ja:note/便笺-科目一-道路交通安全违法记分笔记</guid><description>
 本文基于 公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行） 进行整理。不能保证所有内容的准确性。若有错误，请以官方法规为准。
 
 
@@ -9732,62 +9753,4 @@ patch
 &lt;h3&gt;メタデータを保持しない&lt;a href=&quot;#メタデータを保持しない&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;エラーが発生した場合は、手動でコンフリクトを解決してください。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; --3way&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item><item><title>ススメン: 26-02-22</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-22</link><guid isPermaLink="false">ja:ssn/碎碎念-26-02-22</guid><description>ブログはastroに移行するよ</description><pubDate>Sun, 22 Feb 2026 10:00:00 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;AIモデル &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-05-01 04:56&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI 翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;ブログはAstroに移行しようとしています、&lt;/p&gt;
-&lt;p&gt;現在はコメントデータベースの更新が残っています。&lt;/p&gt;
-&lt;p&gt;移行完了、&lt;/p&gt;
-&lt;h2&gt;マイグレーション進捗、具体的なプロセス&lt;a href=&quot;#マイグレーション進捗具体的なプロセス&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt; 記事のマイグレーション
-&lt;ul&gt;
-&lt;li&gt; Pythonで記事のFront Matterを修正
-&lt;ul&gt;
-&lt;li&gt; すべての記事のFront Matterフィールドと対応するすべてのタイプを取得し、レポートを作成&lt;/li&gt;
-&lt;li&gt; Astro 記事がサポートするFront Matterを修正&lt;/li&gt;
-&lt;li&gt; Front Matterを修正&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; タグのタグ
-&lt;ul&gt;
-&lt;li&gt; すべてのタグのタグを特定&lt;/li&gt;
-&lt;li&gt; タグのタグを修正&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; パスワードの自動設定&lt;/li&gt;
-&lt;li&gt; カテゴリ名の変更&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; Astroテーマの設定&lt;/li&gt;
-&lt;li&gt; 個別ページのマイグレーション&lt;/li&gt;
-&lt;li&gt; 友達リンクのマイグレーション&lt;/li&gt;
-&lt;li&gt; ページのリダイレクト設定およびコメントのマイグレーション
-&lt;ul&gt;
-&lt;li&gt; マイグレーション前の記事リンクの取得
-&lt;ul&gt;
-&lt;li&gt; sitemap.xmlからすべての記事リンクを抽出&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; マイグレーション後の記事リンクの取得&lt;/li&gt;
-&lt;li&gt; リダイレクトの設定
-&lt;ul&gt;
-&lt;li&gt; Vercel Functionを使用して308 永続リダイレクトを実装&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; コメントのマイグレーション
-&lt;ul&gt;
-&lt;li&gt; マイグレーション前のコメントデータを取得&lt;/li&gt;
-&lt;li&gt; コメントリンクをバッチ処理で更新&lt;/li&gt;
-&lt;li&gt; データベースの更新&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;次に&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; bingのsitemap.xmlを更新&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; --3way&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item></channel></rss>

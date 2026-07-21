@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: 科目一 · 道路交通安全违法记分笔记</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-%E7%A7%91%E7%9B%AE%E4%B8%80-%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%9D%E6%B3%95%E8%AE%B0%E5%88%86%E7%AC%94%E8%AE%B0</link><guid isPermaLink="false">note/便笺-科目一-道路交通安全违法记分笔记</guid><description>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-07-21</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-07-21</link><guid isPermaLink="false">ssn/碎碎念-26-07-21</guid><description>嗷嗷，终于过科目一了
+考了两次才过 
+我觉得考科目一主要是看运气，当然 要是把所有题目都做背下了运气好与坏也影响不了最后的结果了。
+
+第一次考前，在 ”驾校一点通“ 上模拟考的都是九十几，听网上说 考试 的题都比 模拟 考简单多。
+所以呢，就去考了。
+但谁知，咋 考试 的题都比 模拟考</description><pubDate>Tue, 21 Jul 2026 15:33:39 GMT</pubDate><content:encoded>&lt;p&gt;嗷嗷，终于过科目一了&lt;/p&gt;
+&lt;p&gt;考了两次才过 &lt;/p&gt;
+&lt;p&gt;我觉得考科目一主要是看运气，当然 要是把所有题目都做背下了运气好与坏也影响不了最后的结果了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;第一次考前，在 ”驾校一点通“ 上模拟考的都是九十几，听网上说 考试 的题都比 模拟 考简单多。&lt;/p&gt;
+&lt;p&gt;所以呢，就去考了。&lt;/p&gt;
+&lt;p&gt;但谁知，咋 考试 的题都比 模拟考 难多了，都不是一个层次的。&lt;/p&gt;
+&lt;p&gt;给我出了一大堆 记分、罚款 的难题，哭死我。(大概有三十多道，补考也是那么多)&lt;/p&gt;
+&lt;p&gt;还因为平时刷题刷傻了， 模拟 考时，那题 来来回回 就那几道，容易把答案背下来，但知识点却没背。就是刷多了，读了一半的题目内容，手自动点到正确的选项了。&lt;/p&gt;
+&lt;p&gt;回家后，被我爸给骂死了。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;第二次考前，我就不刷题了，死记 《道路交通安全违法行为记分管理办法》 以及各种处罚 等。&lt;/p&gt;
+&lt;p&gt;感觉我快把那《记分管理办法》 背下来了。~ ~ ~&lt;/p&gt;
+&lt;p&gt;然后就去考了。考时特别紧张，感觉特别冷。&lt;/p&gt;
+&lt;p&gt;万幸，我考过了，99分。&lt;/p&gt;
+&lt;p&gt;~~但我好想骂人，为啥这次出的题那么简单。我死记的记分、罚款题，它才出了不到6道。啊啊啊啊啊 ~ ~ ~~&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-4</category></item><item><title>便笺: 科目一 · 道路交通安全违法记分笔记</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-%E7%A7%91%E7%9B%AE%E4%B8%80-%E9%81%93%E8%B7%AF%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8%E8%BF%9D%E6%B3%95%E8%AE%B0%E5%88%86%E7%AC%94%E8%AE%B0</link><guid isPermaLink="false">note/便笺-科目一-道路交通安全违法记分笔记</guid><description>
 本文基于 公安部第163号令《道路交通安全违法行为记分管理办法》（2022年4月1日起施行） 进行整理。不能保证所有内容的准确性。若有错误，请以官方法规为准。
 
 
@@ -4616,57 +4637,4 @@ import { footerConfig, siteConfig } from &apos;@constants/site-config&apos;;</de
 &lt;h3&gt;不保留元数据&lt;a href=&quot;#不保留元数据&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;如果报错，可手动解决冲突&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; --3way&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item><item><title>碎碎念: 26-02-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-22</link><guid isPermaLink="false">ssn/碎碎念-26-02-22</guid><description>博客就迁移到 astro 啦</description><pubDate>Sun, 22 Feb 2026 10:00:00 GMT</pubDate><content:encoded>&lt;p&gt;博客就快迁移到 astro 了，&lt;/p&gt;
-&lt;p&gt;现在只差评论数据库还没有更新。&lt;/p&gt;
-&lt;p&gt;迁移完成，&lt;/p&gt;
-&lt;h2&gt;迁移进度，具体过程&lt;a href=&quot;#迁移进度具体过程&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt; 迁移文章
-&lt;ul&gt;
-&lt;li&gt; python 修正文章的 Front Matter
-&lt;ul&gt;
-&lt;li&gt; 获取所有文章的 Front Matter 字段落，以及对应的所有类型，生成报告&lt;/li&gt;
-&lt;li&gt; 修正 Astro 文章的 支持的 Front Matter&lt;/li&gt;
-&lt;li&gt; 修正 Front Matter&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; 标签标签
-&lt;ul&gt;
-&lt;li&gt; 找出所有标签标签&lt;/li&gt;
-&lt;li&gt; 修正标签标签&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; 自动设置密码&lt;/li&gt;
-&lt;li&gt; 分类名称修改&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; 配置 Astro theme 设置&lt;/li&gt;
-&lt;li&gt; 迁移单独页面&lt;/li&gt;
-&lt;li&gt; 迁移友链&lt;/li&gt;
-&lt;li&gt; 配置页面重定向，以及迁移评论
-&lt;ul&gt;
-&lt;li&gt; 获取迁移前的文章链接
-&lt;ul&gt;
-&lt;li&gt; 从 sitemap.xml 中提取所有文章链接&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; 获取迁移后的文章链接&lt;/li&gt;
-&lt;li&gt; 配置重定向
-&lt;ul&gt;
-&lt;li&gt; 使用 vercel function 实现 308 永久重定向&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt; 迁移评论
-&lt;ul&gt;
-&lt;li&gt; 获取迁移前的评论数据&lt;/li&gt;
-&lt;li&gt; 批量更新批量评论链接&lt;/li&gt;
-&lt;li&gt; 更新数据库&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;后续&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt; 更新 bing 的 sitemap.xml&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;git&lt;/span&gt;&lt;span&gt; apply&lt;/span&gt;&lt;span&gt; --3way&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item></channel></rss>
