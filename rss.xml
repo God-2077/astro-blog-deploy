@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。&lt;/p&gt;
 &lt;p&gt;本文使用的是 &lt;a href=&quot;https://www.modelscope.cn/models/HaujetZhao/Fun-ASR-Nano-2512-GGUF&quot;&gt;HaujetZhao/Fun-ASR-Nano-2512-GGUF&lt;/a&gt; 模型。原因，最简单，最快速。&lt;/p&gt;
 &lt;h2&gt;下载仓库&lt;a href=&quot;#下载仓库&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -4825,27 +4825,4 @@ import { footerConfig, siteConfig } from &apos;@constants/site-config&apos;;</de
 &lt;hr /&gt;
 &lt;p&gt;晚自习，略&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;放学，回家&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>便笺: [微信]不用发消息，如何知道自己有没有被拉黑?</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-%E4%B8%8D%E7%94%A8%E5%8F%91%E6%B6%88%E6%81%AF-%E5%A6%82%E4%BD%95%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E6%9C%89%E6%B2%A1%E6%9C%89%E8%A2%AB%E6%8B%89%E9%BB%91</link><guid isPermaLink="false">note/便笺-不用发消息-如何知道自己有没有被拉黑</guid><description>不用发消息，如何知道自己有没有被拉黑? 本文主要介绍如何分辨朋友圈显示横线是对方删除、拉黑还是屏蔽你，以及查看拉黑者朋友圈的方法。</description><pubDate>Wed, 25 Feb 2026 15:23:00 GMT</pubDate><content:encoded>&lt;h2&gt;不用发消息，如何知道自己有没有被拉黑?&lt;a href=&quot;#不用发消息如何知道自己有没有被拉黑&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;总结自 UP 主：大明白李淑芬 的视频&lt;/p&gt;
-&lt;p&gt;视频：&lt;a href=&quot;https://www.bilibili.com/video/BV1gwZjBuEJ2/&quot;&gt;https://www.bilibili.com/video/BV1gwZjBuEJ2/&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;以下文本由 Doubao 总结生成&lt;/p&gt;
-&lt;h2&gt;【智能总结】&lt;a href=&quot;#智能总结&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;主要介绍如何分辨朋友圈显示横线是对方删除、拉黑还是屏蔽你，以及查看拉黑者朋友圈的方法。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;分辨对方操作&lt;/strong&gt;：
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;确认好友关系&lt;/strong&gt;：点开对方头像进聊天界面，点左下角加号选转账，看头像下名字，显示备注或实名则仍是好友。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;判断删除或拉黑&lt;/strong&gt;：输入 0.01 元转账，提示非收款方好友，对方已删除；提示确认好友关系是否正常，对方已拉黑。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;判断屏蔽&lt;/strong&gt;：正常跳转输入密码页面，对方屏蔽你看其朋友圈。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;查看拉黑者朋友圈&lt;/strong&gt;：若对方拉黑你，你也拉黑他，通过朋友圈互动记录点对方头像可查看其朋友圈。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;【原文】&lt;a href=&quot;#原文&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;说话人 1&lt;/p&gt;
-&lt;p&gt;朋友圈显示一条横线，对方是把你删除了、拉黑了，还是把你屏蔽了？一个方法就能快速分辨，在整个过程完全不会被发现。点开对方的头像，进入聊天界面，不要发送任何消息，直接点左下角的加号，选择转账。先看对方头像下面的名字，如果显示的是带有括号的备注或实名，说明你们仍然是好友关系。接着输入 0.01 元，点击转账。此时如果页面提示你不是收款方好友，说明对方已经将你删除。如果提示请确认你和他的好友关系是否正常，说明对方把你拉黑了。如果正常跳转到了输入密码的页面，就说明你们依然是好友，对方只是不想让你看他朋友圈而已。&lt;/p&gt;
-&lt;p&gt;说话人 1&lt;/p&gt;
-&lt;p&gt;如果是对方没发朋友圈呢？不可能，因为没发过朋友圈的人的界面长这样。再有，如果对方已经把你拉黑，但你仍旧好奇他的朋友圈都发了些啥，也很简单。首先你也把他拉黑，然后到你的朋友圈里找到他曾经和你互动的记录，顺着头像点进去就能顺利看到他都发了哪些内容了。不过既然他都把你拉黑了，你干嘛还非要看他朋友圈呢？&lt;/p&gt;
-&lt;p&gt;说话人 2&lt;/p&gt;
-&lt;p&gt;哎我，记得动动小手，长按点赞，一键三连，支持一下呗。&lt;/p&gt;</content:encoded><category>category:便笺</category></item></channel></rss>
+&lt;p&gt;放学，回家&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
