@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-08-29</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-29</link><guid isPermaLink="false">ssn/碎碎念-26-08-29</guid><description>
+
+云南晚上是有蚊子的。
+
+
+云南本地话听不懂，一群人在宿舍里嘀嘀咕咕的，一句也听不懂。
+
+
+云南的天气有毒。
+
+
+
+没出太阳时冷死了，早上和晚上也很冷。
+这里太阳很毒，紫外线超强，容易晒伤皮肤。
+偶尔阴雨连绵，还是喜欢广东的天气。
+</description><pubDate>Sat, 29 Aug 2026 07:19:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;云南晚上是有蚊子的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;云南本地话听不懂，一群人在宿舍里嘀嘀咕咕的，一句也听不懂。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;云南的天气有毒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;没出太阳时冷死了，早上和晚上也很冷。&lt;/li&gt;
+&lt;li&gt;这里太阳很毒，紫外线超强，容易晒伤皮肤。&lt;/li&gt;
+&lt;li&gt;偶尔阴雨连绵，还是喜欢广东的天气。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。&lt;/p&gt;
 &lt;p&gt;本文使用的是 &lt;a href=&quot;https://www.modelscope.cn/models/HaujetZhao/Fun-ASR-Nano-2512-GGUF&quot;&gt;HaujetZhao/Fun-ASR-Nano-2512-GGUF&lt;/a&gt; 模型。原因，最简单，最快速。&lt;/p&gt;
 &lt;h2&gt;下载仓库&lt;a href=&quot;#下载仓库&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -4807,22 +4837,4 @@ import { footerConfig, siteConfig } from &apos;@constants/site-config&apos;;</de
 &lt;h2&gt;fix(twikoo): 修复加载状态指示器不居中&lt;a href=&quot;#fixtwikoo-修复加载状态指示器不居中&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;link: &lt;a href=&quot;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&quot;&gt;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;feat(umami): Umami PV 不再简写格式化&lt;a href=&quot;#featumami-umami-pv-不再简写格式化&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;link: &lt;a href=&quot;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&quot;&gt;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&lt;/a&gt;&lt;/p&gt;</content:encoded><category>category:便笺</category></item><item><title>碎碎念: 26-02-25</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-25</link><guid isPermaLink="false">ssn/碎碎念-26-02-25</guid><description>现已开学。 26 年 2 月 25 日 流水账记事 昨晚，班主任给我们每个人发了红包，六块钱 但这钱是从家委会拿的。。。 今早，作息没调整过来，上课特别犯困😪 作个决定，每天 12 点前必须睡觉 中午，午睡时，发现忘记带席子了。。。 下午，还是好困 晚饭，饭堂吃鸡腿，但鸡腿特别难吃。 我从未吃过这么难吃的东西，煮得特别烂，一口下去，啥味道都没有，味如嚼蜡，跟十年的烂肉一样 吃不下饭了，今天回家再弄点宵夜吃</description><pubDate>Wed, 25 Feb 2026 15:24:00 GMT</pubDate><content:encoded>&lt;p&gt;现已开学。&lt;/p&gt;
-&lt;h2&gt;26 年 2 月 25 日 &lt;strong&gt;流水账记事&lt;/strong&gt;&lt;a href=&quot;#26-年-2-月-25-日-流水账记事&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;昨晚，班主任给我们每个人发了红包，六块钱&lt;/p&gt;
-&lt;p&gt;但这钱是从家委会拿的。。。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;今早，作息没调整过来，上课特别犯困&lt;/p&gt;
-&lt;p&gt;作个决定，每天 12 点前必须睡觉&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;中午，午睡时，发现忘记带席子了。。。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;下午，还是好困&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;晚饭，饭堂吃鸡腿，但鸡腿特别难吃。&lt;/p&gt;
-&lt;p&gt;我从未吃过这么难吃的东西，煮得特别烂，一口下去，啥味道都没有，味如嚼蜡，跟十年的烂肉一样&lt;/p&gt;
-&lt;p&gt;吃不下饭了，今天回家再弄点宵夜吃&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;晚自习，略&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;放学，回家&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;link: &lt;a href=&quot;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&quot;&gt;https://github.com/God-2077/astro-blog/commit/b851e4fa1316a94f8f87d33c8c5d23810ad03aa6&lt;/a&gt;&lt;/p&gt;</content:encoded><category>category:便笺</category></item></channel></rss>

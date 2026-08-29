@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ja:ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/ja/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">ja:note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-08-29</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-29</link><guid isPermaLink="false">ja:ssn/碎碎念-26-08-29</guid><description>
+
+云南晚上是有蚊子的。
+
+
+云南本地话听不懂，一群人在宿舍里嘀嘀咕咕的，一句也听不懂。
+
+
+云南的天气有毒。
+
+
+
+没出太阳时冷死了，早上和晚上也很冷。
+这里太阳很毒，紫外线超强，容易晒伤皮肤。
+偶尔阴雨连绵，还是喜欢广东的天气。
+</description><pubDate>Sat, 29 Aug 2026 07:19:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;云南晚上是有蚊子的。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;云南本地话听不懂，一群人在宿舍里嘀嘀咕咕的，一句也听不懂。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;云南的天气有毒。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;没出太阳时冷死了，早上和晚上也很冷。&lt;/li&gt;
+&lt;li&gt;这里太阳很毒，紫外线超强，容易晒伤皮肤。&lt;/li&gt;
+&lt;li&gt;偶尔阴雨连绵，还是喜欢广东的天气。&lt;/li&gt;
+&lt;/ul&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ja:ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/ja/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">ja:note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。&lt;/p&gt;
 &lt;p&gt;本文使用的是 &lt;a href=&quot;https://www.modelscope.cn/models/HaujetZhao/Fun-ASR-Nano-2512-GGUF&quot;&gt;HaujetZhao/Fun-ASR-Nano-2512-GGUF&lt;/a&gt; 模型。原因，最简单，最快速。&lt;/p&gt;
 &lt;h2&gt;下载仓库&lt;a href=&quot;#下载仓库&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -9911,25 +9941,4 @@ patch
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;export&lt;/span&gt;&lt;span&gt; interface&lt;/span&gt;&lt;span&gt; SiteBasicConfig&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  /** Mobile logo text */&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;  mobileLogoText&lt;/span&gt;&lt;span&gt;?:&lt;/span&gt;&lt;span&gt; string&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item><item><title>雑感: 26-02-25</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-02-25</link><guid isPermaLink="false">ja:ssn/碎碎念-26-02-25</guid><description>現在、学校が始まっております。2026年2月25日 日記（流水帳） 昨夜、担任の先生が私たち全員に紅包を配られました、6元。ただし、このお金はPTX_家委会から借りたもの。。。 今朝は、スケジュールの調整がうまくいかず、授業中にとても眠かったです😪 ここで決断しました、毎日12時前には必ず寝る必要があります。 午後、昼寝しているときに、マットを忘れていたことに気づきました。。。 午後もまだ眠いです。 夜食は、食堂で鶏の胸肉を食べましたが、とてもまずかったです。これまでで最もまずかったもので、煮すぎてしまって、一口食べただけで味が全くなく、味がわからず、あっさりしています。10年経った腐った肉のように感じました。食べられなくなってしまい、今日帰宅して夜食を少し食べようと思います。</description><pubDate>Wed, 25 Feb 2026 15:24:00 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;AIモデル &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-05-01 04:53&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI 翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;現在、学校が始まりました。&lt;/p&gt;
-&lt;h2&gt;26 年 2 月 25 日 &lt;strong&gt;日記的な記録&lt;/strong&gt;&lt;a href=&quot;#26-年-2-月-25-日-日記的な記録&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;昨夜、クラスの担任が私達全員に6 円の紅包を配りました&lt;/p&gt;
-&lt;p&gt;但这钱是从家委会拿的。。。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;今朝、生活リズムが整っておらず、授業中にとても眠かったです&lt;/p&gt;
-&lt;p&gt;決断しました。毎日午前 12 時までに睡眠を取らなければなりません&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;午後、午睡時、マットを忘れていたことに気づきました。。。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;午後もまだ眠かったです&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;夕食、食堂で鶏の腿肉を食べましたが、それは非常にまずかったです。&lt;/p&gt;
-&lt;p&gt;これまでこんなにまずいものを食べたことがありません。茹ですぎています。一口食べると味が全くありません。味がありません。十年の腐った肉のようなものでした&lt;/p&gt;
-&lt;p&gt;食べられなくなりました。今日は家に帰ってから少し夜食を用意して食べます&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;放課後、家に帰りました&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item></channel></rss>
