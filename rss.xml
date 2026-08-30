@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: Alice in Cradle （爱丽丝的摇篮曲）反编译去码</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-alice-in-cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81</link><guid isPermaLink="false">note/便笺-alice-in-cradle-爱丽丝的摇篮曲-反编译去码</guid><description>1
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-08-30</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30</link><guid isPermaLink="false">ssn/碎碎念-26-08-30</guid><description>28、29号就要去学校报到了，我想，没几个大学会这么早开学的。
+昨天开了个大班会，今天早上又开了个小班会。
+辅导员是个女生的，报到那天，她脸上抹了一层厚厚的白粉。（脸上一直掉粉）
+
+今天晚上就在 400 米跑道那集合，作军训前的编排。从明天开始就要军训了，要军训 21 天。</description><pubDate>Sun, 30 Aug 2026 15:57:33 GMT</pubDate><content:encoded>&lt;p&gt;28、29号就要去学校报到了，我想，没几个大学会这么早开学的。&lt;/p&gt;
+&lt;p&gt;昨天开了个大班会，今天早上又开了个小班会。&lt;/p&gt;
+&lt;p&gt;辅导员是个女生的，&lt;span&gt;报到那天，她脸上抹了一层厚厚的白粉。（脸上一直掉粉）&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;今天晚上就在 400 米跑道那集合，作军训前的编排。从明天开始就要军训了，要军训 21 天。&lt;/p&gt;
+&lt;p&gt;云南的太阳很毒，紫外线特别强。希望军训时，都是像今天一样的阴天天气，避免避免被太阳晒伤。（我还专门买了个防晒霜）&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30/2.webp&quot; alt=&quot;2.webp&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;2.webp&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30/q.webp&quot; alt=&quot;q.webp&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;q.webp&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+&lt;p&gt;之前一直用的 &lt;code&gt;i.yuki.sh&lt;/code&gt; 站点关闭了，感谢大佬的无私贡献。&lt;/p&gt;
+&lt;p&gt;最近开始考虑自己搭建个反代 &lt;code&gt;i.pximg.net&lt;/code&gt; 的服务，技术栈：Node.js + Hono + SQLite。实现看图自由。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/%E3%82%AF%E3%83%A9%E3%83%8A_Atlas_%E3%82%A2%E3%83%AA%E3%82%B9%E3%82%B1%E3%82%A4_141853037_p0.png&quot; alt=&quot;クラナ_Atlas_アリスケイ&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;クラナ_Atlas_アリスケイ&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/%E3%82%82%E3%82%82%E3%82%93%E3%81%9F_%E3%81%8B%E3%81%8D%E6%B0%B7%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E2%80%A6%E3%81%BF%E3%81%A6%E3%82%88%EF%BC%81%E3%83%92%E3%82%AB%E3%83%AA%E3%81%AE%E6%89%80%E3%81%A0%E3%81%91%E5%BD%B1%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%A6%E6%9A%91%E3%81%84%E3%82%88%E3%83%BC%E3%83%BC%EF%BC%81_148915796_p0.jpg&quot; alt=&quot;ももんた_かき氷ありがと…みてよ！ヒカリの所だけ影なってて暑いよーー！&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;ももんた_かき氷ありがと…みてよ！ヒカリの所だけ影なってて暑いよーー！&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/-AKOvO-_%E3%83%8A%E3%82%AE%E3%82%B5_145711770_p1.jpg&quot; alt=&quot;-AKOvO-_ナギサ&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;-AKOvO-_ナギサ&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-4</category></item><item><title>便笺: Alice in Cradle （爱丽丝的摇篮曲）反编译去码</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-alice-in-cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81</link><guid isPermaLink="false">note/便笺-alice-in-cradle-爱丽丝的摇篮曲-反编译去码</guid><description>1
 前言
 《Alice In Cradle（アリス イン クレイドル）》是一款由 ひなゆあ、橋野みずは 开发的 R-18 同人 ACT 游戏，目前正在制作中。
 Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛克给去掉。这样你就能美美的享受游戏。</description><pubDate>Sun, 30 Aug 2026 05:33:22 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/1.png&quot; alt=&quot;1&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;1&lt;/figcaption&gt;&lt;/figure&gt;
@@ -52,7 +69,7 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;li&gt;没出太阳时冷死了，早上和晚上也很冷。&lt;/li&gt;
 &lt;li&gt;这里太阳很毒，紫外线超强，容易晒伤皮肤。&lt;/li&gt;
 &lt;li&gt;偶尔阴雨连绵，还是喜欢广东的天气。&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-08-28</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-28</link><guid isPermaLink="false">ssn/碎碎念-26-08-28</guid><description>我将记住 “2026年 8月 28日”。</description><pubDate>Fri, 28 Aug 2026 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我将记住 “2026年 8月 28日”。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-4</category></item><item><title>便笺: Fun-ASR 本地部署与批量推理</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-fun-asr-%E6%9C%AC%E5%9C%B0%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%89%B9%E9%87%8F%E6%8E%A8%E7%90%86</link><guid isPermaLink="false">note/便笺-fun-asr-本地部署与批量推理</guid><description>提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。</description><pubDate>Mon, 10 Aug 2026 12:12:02 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;提供 Fun-ASR-Nano-2512-GGUF 本地部署与批量推理教程，涵盖 Conda 环境搭建、依赖安装及 Python 批量转录脚本。实现离线、高速的多格式音频（MP3/WAV/M4A）转文字并生成 SRT 字幕，是替代云端 API 的最佳免费方案。&lt;/p&gt;
 &lt;p&gt;本文使用的是 &lt;a href=&quot;https://www.modelscope.cn/models/HaujetZhao/Fun-ASR-Nano-2512-GGUF&quot;&gt;HaujetZhao/Fun-ASR-Nano-2512-GGUF&lt;/a&gt; 模型。原因，最简单，最快速。&lt;/p&gt;
 &lt;h2&gt;下载仓库&lt;a href=&quot;#下载仓库&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -3707,61 +3724,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;// 启动批量转换&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;batchConvert&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item><item><title>便笺: python 日志同时输出到控制台和文件</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-python-%E6%97%A5%E5%BF%97%E5%90%8C%E6%97%B6%E8%BE%93%E5%87%BA%E5%88%B0%E6%8E%A7%E5%88%B6%E5%8F%B0%E5%92%8C%E6%96%87%E4%BB%B6</link><guid isPermaLink="false">note/便笺-python-日志同时输出到控制台和文件</guid><description>使 python 日志同时输出到控制台和文件，方便调试和查看日志。</description><pubDate>Sat, 21 Mar 2026 06:35:46 GMT</pubDate><content:encoded>&lt;h2&gt;简介&lt;a href=&quot;#简介&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;使 python 日志同时输出到控制台和文件，方便调试和查看日志。&lt;/p&gt;
-&lt;h2&gt;代码实现&lt;a href=&quot;#代码实现&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; logging&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;from&lt;/span&gt;&lt;span&gt; pathlib &lt;/span&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; Path&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; sys&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;def&lt;/span&gt;&lt;span&gt; init_logger&lt;/span&gt;&lt;span&gt;(level: &lt;/span&gt;&lt;span&gt;str&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; &quot;INFO&quot;&lt;/span&gt;&lt;span&gt;, filename: &lt;/span&gt;&lt;span&gt;str&lt;/span&gt;&lt;span&gt; |&lt;/span&gt;&lt;span&gt; Path &lt;/span&gt;&lt;span&gt;|&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;span&gt;) -&amp;gt; logging.Logger:&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    &quot;&quot;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    初始化 logger&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    :param level: 日志级别&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    :param filename: 日志文件名&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    :return: logger 实例&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    &quot;&quot;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 创建 logger&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; logging.getLogger(&lt;/span&gt;&lt;span&gt;__name__&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.setLevel(level)  &lt;/span&gt;&lt;span&gt;# 设置 logger 的级别&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.handlers.clear()  &lt;/span&gt;&lt;span&gt;# 清空已有的处理器&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 1. 创建文件处理器&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    if&lt;/span&gt;&lt;span&gt; not&lt;/span&gt;&lt;span&gt; filename &lt;/span&gt;&lt;span&gt;is&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        log_dir &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; Path(filename).parent&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        if&lt;/span&gt;&lt;span&gt; not&lt;/span&gt;&lt;span&gt; log_dir.exists():&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;            log_dir.mkdir(&lt;/span&gt;&lt;span&gt;parents&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;True&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;exist_ok&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;True&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        file_handler &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; logging.FileHandler(Path(filename), &lt;/span&gt;&lt;span&gt;encoding&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;&apos;utf-8&apos;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        file_handler.setLevel(level)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    else&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        file_handler &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 2. 创建控制台处理器&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    console_handler &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; logging.StreamHandler(sys.stdout)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    console_handler.setLevel(level)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 3. 设置日志格式&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    formatter &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; logging.Formatter(&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        &quot;&lt;/span&gt;&lt;span&gt;%(asctime)s&lt;/span&gt;&lt;span&gt; - &lt;/span&gt;&lt;span&gt;%(levelname)s&lt;/span&gt;&lt;span&gt; - &lt;/span&gt;&lt;span&gt;%(message)s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    )&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    file_handler.setFormatter(formatter) &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; not&lt;/span&gt;&lt;span&gt; file_handler &lt;/span&gt;&lt;span&gt;is&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;span&gt; else&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    console_handler.setFormatter(formatter)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 4. 将处理器添加到 logger&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.handlers.clear()  &lt;/span&gt;&lt;span&gt;# 清空已有的处理器&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    if&lt;/span&gt;&lt;span&gt; not&lt;/span&gt;&lt;span&gt; file_handler &lt;/span&gt;&lt;span&gt;is&lt;/span&gt;&lt;span&gt; None&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;        logger.addHandler(file_handler)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.addHandler(console_handler)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; logger&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; __name__&lt;/span&gt;&lt;span&gt; ==&lt;/span&gt;&lt;span&gt; &quot;__main__&quot;&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; init_logger()&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.info(&lt;/span&gt;&lt;span&gt;&quot;这是一条 info 日志&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.error(&lt;/span&gt;&lt;span&gt;&quot;这是一条 error 日志&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    # 重新初始化 logger&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; init_logger(&lt;/span&gt;&lt;span&gt;&quot;DEBUG&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.info(&lt;/span&gt;&lt;span&gt;&quot;重新初始化 logger 后的第一条 info 日志&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;    logger.debug(&lt;/span&gt;&lt;span&gt;&quot;这是一条 debug 日志&quot;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item></channel></rss>
+&lt;span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:便笺</category></item></channel></rss>
