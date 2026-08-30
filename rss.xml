@@ -1,39 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: Alice in Cradle （爱丽丝的摇篮曲）反编译去码</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-alice-in-cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81</link><guid isPermaLink="false">note/便笺-alice-in-cradle-爱丽丝的摇篮曲-反编译去码</guid><description>1
 前言
 《Alice In Cradle（アリス イン クレイドル）》是一款由 ひなゆあ、橋野みずは 开发的 R-18 同人 ACT 游戏，目前正在制作中。
-Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛克给去掉。这样你就能美美的享受游戏。
-准备</description><pubDate>Sun, 30 Aug 2026 05:33:22 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/1.png&quot; alt=&quot;1&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;1&lt;/figcaption&gt;&lt;/figure&gt;
+Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛克给去掉。这样你就能美美的享受游戏。</description><pubDate>Sun, 30 Aug 2026 05:33:22 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/1.png&quot; alt=&quot;1&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;1&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;《Alice In Cradle（アリス イン クレイドル）》是一款由 ひなゆあ、橋野みずは 开发的 R-18 同人 ACT 游戏，目前正在制作中。&lt;/p&gt;
 &lt;p&gt;Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛克给去掉。这样你就能美美的享受游戏。&lt;/p&gt;
+&lt;p&gt;如果你不想下载 dnspy 工具来反编译，也可以下载我编译好的 &lt;code&gt;Assembly-CSharp.dll&lt;/code&gt; 文件。点击 &lt;a href=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/Assembly-CSharp.dll&quot;&gt;Assembly-CSharp.dll&lt;/a&gt; 下载。&lt;/p&gt;
 &lt;h2&gt;准备&lt;a href=&quot;#准备&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;准备 dnspy 工具，dnspy 是一个反编译工具，可在 &lt;a href=&quot;https://github.com/dnSpy/dnSpy&quot;&gt;GitHub&lt;/a&gt; 上下载。&lt;/p&gt;
+&lt;h2&gt;原理&lt;a href=&quot;#原理&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;把马赛克核心绘制方法 &lt;code&gt;FnDrawMosaic&lt;/code&gt; 的第一行添加 &lt;code&gt;return false;&lt;/code&gt;，让它画不了马赛克。&lt;/p&gt;
 &lt;h2&gt;反编译&lt;a href=&quot;#反编译&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;打开 dnspy 工具。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;点击 “文件” -&amp;gt; “打开”，选择 &lt;code&gt;{AIC安装目录}/AliceInCradle_Data/Managed/Assembly-CSharp.dll&lt;/code&gt; 文件。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;打开 dnspy 工具。点击 “文件” -&amp;gt; “打开”，选择 &lt;code&gt;{AIC安装目录}/AliceInCradle_Data/Managed/Assembly-CSharp.dll&lt;/code&gt; 文件。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_IvvPxL5GwN.png&quot; alt=&quot;dnSpy_IvvPxL5GwN.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_IvvPxL5GwN.png&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;打开搜索程序集，搜索 &lt;code&gt;FnDrawMosaic&lt;/code&gt;，并双击搜索结果转到引用位置。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;打开搜索程序集，搜索 &lt;code&gt;FnDrawMosaic&lt;/code&gt;，并双击搜索结果转到引用位置。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_y8MtieqndF.png&quot; alt=&quot;dnSpy_y8MtieqndF.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_y8MtieqndF.png&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_IVLRG3EFBA.png&quot; alt=&quot;dnSpy_IVLRG3EFBA.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_IVLRG3EFBA.png&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;右键黄色的 &lt;code&gt;FnDrawMosaic&lt;/code&gt; 方法，点击右键菜单的 “编辑方法”。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;右键黄色的 &lt;code&gt;FnDrawMosaic&lt;/code&gt; 方法，点击右键菜单的 “编辑方法”。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/N9ZliSNGpI.png&quot; alt=&quot;N9ZliSNGpI.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;N9ZliSNGpI.png&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;添加一行 &lt;code&gt;return false;&lt;/code&gt; 在 &lt;code&gt;FnDrawMosaic&lt;/code&gt; 方法的开头，并点击编译按钮。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;添加一行 &lt;code&gt;return false;&lt;/code&gt; 在 &lt;code&gt;FnDrawMosaic&lt;/code&gt; 方法的开头，并点击编译按钮。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_WVjfTlPP7o.png&quot; alt=&quot;dnSpy_WVjfTlPP7o.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_WVjfTlPP7o.png&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;ol&gt;
-&lt;li&gt;点击左上方的 “文件” -&amp;gt; “保存模块”。在新窗口点击 “保存” 按钮。这时导出的 &lt;code&gt;Assembly-CSharp.dll&lt;/code&gt; 文件就是反编译后的文件。把它覆盖掉 &lt;code&gt;{AIC安装目录}/AliceInCradle_Data/Managed/Assembly-CSharp.dll&lt;/code&gt; 文件，即可完成反编译去码。&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;点击左上方的 “文件” -&amp;gt; “保存模块”。在新窗口点击 “保存” 按钮。这时导出的 &lt;code&gt;Assembly-CSharp.dll&lt;/code&gt; 文件就是反编译后的文件。把它覆盖掉 &lt;code&gt;{AIC安装目录}/AliceInCradle_Data/Managed/Assembly-CSharp.dll&lt;/code&gt; 文件，即可完成反编译去码。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_QucbY3He39.png&quot; alt=&quot;dnSpy_QucbY3He39.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_QucbY3He39.png&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/note/%E4%BE%BF%E7%AC%BA-Alice-in-Cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81/dnSpy_IKtcPDGWqh.png&quot; alt=&quot;dnSpy_IKtcPDGWqh.png&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;dnSpy_IKtcPDGWqh.png&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:便笺</category></item><item><title>碎碎念: 26-08-29</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-29</link><guid isPermaLink="false">ssn/碎碎念-26-08-29</guid><description>
 
