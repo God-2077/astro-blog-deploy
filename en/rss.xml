@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-08-30</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30</link><guid isPermaLink="false">en:ssn/碎碎念-26-08-30</guid><description>28、29号就要去学校报到了，我想，没几个大学会这么早开学的。
-昨天开了个大班会，今天早上又开了个小班会。
+昨天开了个大班会，今天早上又开了个小班会。辅导员废话好多啊~
 辅导员是个女生的，报到那天，她脸上抹了一层厚厚的白粉。（脸上一直掉粉）
 
-今天晚上就在 400 米跑道那集合，作军训前的编排。从明天开始就要军训了，要军训 21 天。</description><pubDate>Sun, 30 Aug 2026 15:57:33 GMT</pubDate><content:encoded>&lt;p&gt;28、29号就要去学校报到了，我想，没几个大学会这么早开学的。&lt;/p&gt;
-&lt;p&gt;昨天开了个大班会，今天早上又开了个小班会。&lt;/p&gt;
+今天晚上就在 400 米跑道那边集合，作军训前的编排。从明天开始就要军训了，要军训 21 天，苦。</description><pubDate>Sun, 30 Aug 2026 15:57:33 GMT</pubDate><content:encoded>&lt;p&gt;28、29号就要去学校报到了，我想，没几个大学会这么早开学的。&lt;/p&gt;
+&lt;p&gt;昨天开了个大班会，今天早上又开了个小班会。&lt;span&gt;辅导员废话好多啊~&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;辅导员是个女生的，&lt;span&gt;报到那天，她脸上抹了一层厚厚的白粉。（脸上一直掉粉）&lt;/span&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;今天晚上就在 400 米跑道那集合，作军训前的编排。从明天开始就要军训了，要军训 21 天。&lt;/p&gt;
+&lt;p&gt;今天晚上就在 400 米跑道那边集合，作军训前的编排。从明天开始就要军训了，要军训 21 天，苦。&lt;/p&gt;
 &lt;p&gt;云南的太阳很毒，紫外线特别强。希望军训时，都是像今天一样的阴天天气，避免避免被太阳晒伤。（我还专门买了个防晒霜）&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30/2.webp&quot; alt=&quot;2.webp&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;2.webp&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-08-30/q.webp&quot; alt=&quot;q.webp&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;q.webp&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;hr /&gt;
 &lt;p&gt;之前一直用的 &lt;code&gt;i.yuki.sh&lt;/code&gt; 站点关闭了，感谢大佬的无私贡献。&lt;/p&gt;
-&lt;p&gt;最近开始考虑自己搭建个反代 &lt;code&gt;i.pximg.net&lt;/code&gt; 的服务，技术栈：Node.js + Hono + SQLite。实现看图自由。&lt;/p&gt;
+&lt;p&gt;就最近开始考虑自己搭建个反代 &lt;code&gt;i.pximg.net&lt;/code&gt; 的服务，技术栈：Node.js + Hono + SQLite。实现看图自由。&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/%E3%82%AF%E3%83%A9%E3%83%8A_Atlas_%E3%82%A2%E3%83%AA%E3%82%B9%E3%82%B1%E3%82%A4_141853037_p0.png&quot; alt=&quot;クラナ_Atlas_アリスケイ&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;クラナ_Atlas_アリスケイ&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/%E3%82%82%E3%82%82%E3%82%93%E3%81%9F_%E3%81%8B%E3%81%8D%E6%B0%B7%E3%81%82%E3%82%8A%E3%81%8C%E3%81%A8%E2%80%A6%E3%81%BF%E3%81%A6%E3%82%88%EF%BC%81%E3%83%92%E3%82%AB%E3%83%AA%E3%81%AE%E6%89%80%E3%81%A0%E3%81%91%E5%BD%B1%E3%81%AA%E3%81%A3%E3%81%A6%E3%81%A6%E6%9A%91%E3%81%84%E3%82%88%E3%83%BC%E3%83%BC%EF%BC%81_148915796_p0.jpg&quot; alt=&quot;ももんた_かき氷ありがと…みてよ！ヒカリの所だけ影なってて暑いよーー！&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;ももんた_かき氷ありがと…みてよ！ヒカリの所だけ影なってて暑いよーー！&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.r2.buasis.eu.org/pixiv/-AKOvO-_%E3%83%8A%E3%82%AE%E3%82%B5_145711770_p1.jpg&quot; alt=&quot;-AKOvO-_ナギサ&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;-AKOvO-_ナギサ&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-4</category></item><item><title>便笺: Alice in Cradle （爱丽丝的摇篮曲）反编译去码</title><link>https://blog.ksable.top/en/post/note/%E4%BE%BF%E7%AC%BA-alice-in-cradle-%E7%88%B1%E4%B8%BD%E4%B8%9D%E7%9A%84%E6%91%87%E7%AF%AE%E6%9B%B2-%E5%8F%8D%E7%BC%96%E8%AF%91%E5%8E%BB%E7%A0%81</link><guid isPermaLink="false">en:note/便笺-alice-in-cradle-爱丽丝的摇篮曲-反编译去码</guid><description>1
