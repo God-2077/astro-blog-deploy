@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /api/
+Disallow: /blog/noindex/
 Allow: /
 Sitemap: https://blog.ksable.top/sitemap-index.xml
