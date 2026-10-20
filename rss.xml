@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 用 AI 给自己写了个博客后台</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-18-%E7%94%A8-ai-%E7%BB%99%E8%87%AA%E5%B7%B1%E5%86%99%E4%BA%86%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%8F%B0</link><guid isPermaLink="false">ssn/碎碎念-26-10-18-用-ai-给自己写了个博客后台</guid><description>从下午三点半到晚上十点半，5个多小时、17 个提交，我让 AI 帮我写了个博客后台。比之前的 Decap CMS 方便，界面更好看，手机上也能用，现在已经部署在 sakura.ksable.top，以后更新博客会方便很多。</description><pubDate>Sun, 18 Oct 2026 15:50:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
+偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
+于是就把主站套上 EdgeOne 了
+
+但是呢  呜呜 ~
+网站似乎更慢了
+EdgeOne 站点
+vercel 站点</description><pubDate>Tue, 20 Oct 2026 15:50:40 GMT</pubDate><content:encoded>&lt;p&gt;在学校里，用的电信网有时打不开自己的博客&lt;/p&gt;
+&lt;p&gt;偶然刷到篇 EdgeOne，又考虑到网站现在的速度……&lt;/p&gt;
+&lt;p&gt;于是就把主站套上 EdgeOne 了&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;但是呢  呜呜 ~&lt;/p&gt;
+&lt;p&gt;网站似乎更慢了&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20/2.jpg&quot; alt=&quot;EdgeOne 站点&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;EdgeOne 站点&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20/1.jpg&quot; alt=&quot;vercel 站点&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;vercel 站点&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:s-4</category></item><item><title>碎碎念: 用 AI 给自己写了个博客后台</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-18-%E7%94%A8-ai-%E7%BB%99%E8%87%AA%E5%B7%B1%E5%86%99%E4%BA%86%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%8F%B0</link><guid isPermaLink="false">ssn/碎碎念-26-10-18-用-ai-给自己写了个博客后台</guid><description>从下午三点半到晚上十点半，5个多小时、17 个提交，我让 AI 帮我写了个博客后台。比之前的 Decap CMS 方便，界面更好看，手机上也能用，现在已经部署在 sakura.ksable.top，以后更新博客会方便很多。</description><pubDate>Sun, 18 Oct 2026 15:50:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;本文由 AI 辅助编写&lt;/p&gt;
 &lt;p&gt;本文纯 AI 手笔，人工含量：0%&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1454,5 +1468,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;li&gt;fix: 修复 React Grab 总是被启用问题 #184&lt;/li&gt;
 &lt;li&gt;删除 Layout.astro 中无用的预连接第三方域名资源提示 #182&lt;/li&gt;
 &lt;li&gt;feat(LinkEmbed): 修复 LinkEmbed 配置不生效问题、以及其它相关的若干问题 #180&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 今天我生日</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E4%BB%8A%E5%A4%A9%E6%88%91%E7%94%9F%E6%97%A5</link><guid isPermaLink="false">ssn/碎碎念-今天我生日</guid><description>今天我生日，能和我说声生日快乐吗</description><pubDate>Sun, 26 Apr 2026 16:52:01 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;今天我生日，能和我说声生日快乐吗&lt;/strong&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://ik.imagekit.io/ziw9wtigz/Posts/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E4%BB%8A%E5%A4%A9%E6%88%91%E7%94%9F%E6%97%A5/Screenshot_2026-04-27-00-29-56-600_com.android.calendar-edit.jpg&quot; alt=&quot;生日&quot; loading=&quot;lazy&quot; width=&quot;1043&quot; height=&quot;1558&quot; /&gt;&lt;figcaption&gt;生日&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
+&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>

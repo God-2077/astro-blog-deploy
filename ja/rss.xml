@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>ひとりごと：AIを使って自分のブログの管理画面を作った</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-18-%E7%94%A8-ai-%E7%BB%99%E8%87%AA%E5%B7%B1%E5%86%99%E4%BA%86%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%8F%B0</link><guid isPermaLink="false">ja:ssn/碎碎念-26-10-18-用-ai-给自己写了个博客后台</guid><description>午後3時半から夜10時半までの5時間余り、17回のコミットで、AIにブログの管理画面を書いてもらった。以前のDecap CMSより便利で、インターフェースも見やすく、スマホでも使える。すでにsakura.ksable.topにデプロイ済みで、これからはブログの更新がずっと楽になりそうだ。</description><pubDate>Sun, 18 Oct 2026 15:50:00 GMT</pubDate><content:encoded>&lt;div&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ja:ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
+偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
+于是就把主站套上 EdgeOne 了
+
+但是呢  呜呜 ~
+网站似乎更慢了
+EdgeOne 站点
+vercel 站点</description><pubDate>Tue, 20 Oct 2026 15:50:40 GMT</pubDate><content:encoded>&lt;p&gt;在学校里，用的电信网有时打不开自己的博客&lt;/p&gt;
+&lt;p&gt;偶然刷到篇 EdgeOne，又考虑到网站现在的速度……&lt;/p&gt;
+&lt;p&gt;于是就把主站套上 EdgeOne 了&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;但是呢  呜呜 ~&lt;/p&gt;
+&lt;p&gt;网站似乎更慢了&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20/2.jpg&quot; alt=&quot;EdgeOne 站点&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;EdgeOne 站点&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20/1.jpg&quot; alt=&quot;vercel 站点&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;vercel 站点&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:s-4</category></item><item><title>ひとりごと：AIを使って自分のブログの管理画面を作った</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-18-%E7%94%A8-ai-%E7%BB%99%E8%87%AA%E5%B7%B1%E5%86%99%E4%BA%86%E4%B8%AA%E5%8D%9A%E5%AE%A2%E5%90%8E%E5%8F%B0</link><guid isPermaLink="false">ja:ssn/碎碎念-26-10-18-用-ai-给自己写了个博客后台</guid><description>午後3時半から夜10時半までの5時間余り、17回のコミットで、AIにブログの管理画面を書いてもらった。以前のDecap CMSより便利で、インターフェースも見やすく、スマホでも使える。すでにsakura.ksable.topにデプロイ済みで、これからはブログの更新がずっと楽になりそうだ。</description><pubDate>Sun, 18 Oct 2026 15:50:00 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
 &lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-10-19 11:18&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
@@ -1517,10 +1531,4 @@ AI翻訳は参考に限り、内容の完全な正確性を保証できません
 &lt;li&gt;fix: React Grabが常に有効になる問題を修正 #184&lt;/li&gt;
 &lt;li&gt;Layout.astroから無用なサードパーティドメインリソースのプリコンネクション通知を削除 #182&lt;/li&gt;
 &lt;li&gt;feat(LinkEmbed): LinkEmbedの設定が反映されない問題を修正し、関連する他のいくつかの問題も修正 #180&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>つぶやき: 今日は私の誕生日です</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E4%BB%8A%E5%A4%A9%E6%88%91%E7%94%9F%E6%97%A5</link><guid isPermaLink="false">ja:ssn/碎碎念-今天我生日</guid><description>今日は私の誕生日です。誕生日おめでとうを言っていただけますか？</description><pubDate>Sun, 26 Apr 2026 16:52:01 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;AIモデル &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-05-01 15:02&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI 翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;今天我生日，能和我说声生日快乐吗&lt;/strong&gt;&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://ik.imagekit.io/ziw9wtigz/Posts/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E4%BB%8A%E5%A4%A9%E6%88%91%E7%94%9F%E6%97%A5/Screenshot_2026-04-27-00-29-56-600_com.android.calendar-edit.jpg&quot; alt=&quot;生日&quot; loading=&quot;lazy&quot; width=&quot;1043&quot; height=&quot;1558&quot; /&gt;&lt;figcaption&gt;生日&lt;/figcaption&gt;&lt;/figure&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
+&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
