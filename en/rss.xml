@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">en:ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">en:ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
+但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~</description><pubDate>Thu, 22 Oct 2026 15:56:42 GMT</pubDate><content:encoded>&lt;p&gt;呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~&lt;/p&gt;
+&lt;p&gt;但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~&lt;/p&gt;</content:encoded></item><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">en:ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
 偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
 于是就把主站套上 EdgeOne 了
 
@@ -1500,29 +1502,4 @@ AI</description><pubDate>Fri, 15 May 2026 15:03:36 GMT</pubDate><content:encoded
 &lt;p&gt;In the past, I never really thought much of Ruan. I saw her as just random passenger on the same bus, a passerby heading to the next stop together with me.&lt;/p&gt;
 &lt;p&gt;--&lt;/p&gt;
 &lt;p&gt;The college entrance exam means a new beginning, but it also means just as many goodbyes and departures.&lt;/p&gt;
-&lt;p&gt;I don&apos;t have many close friends, and I&apos;m not familiar with most people in my class. Perhaps after the exam, everyone will go their separate ways, travel together in groups, but in their minds, their phones, and their photo albums, there will never be a trace of me. And I, a lonely person, will only become lonelier.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">en:ssn/碎碎念-近日</guid><description>This post is encrypted. Please view it on the website.</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;This post is encrypted. Please view it on the website.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>Random Notes: Summary of Several Recent Technical Advancements</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%9C%9F%E5%87%A0%E9%A1%B9%E6%8A%80%E6%9C%AF%E6%8E%A8%E8%BF%9B%E5%B0%8F%E7%BB%93</link><guid isPermaLink="false">en:ssn/碎碎念-近期几项技术推进小结</guid><description>This article introduces multiple blog optimizations: using CDN to accelerate static resources, integrating multi-language translation and donation buttons, adding browser language detection; and shares self-used batch translation tool fast_md_fanyi, friend link aggregation platform FriendFeed, as well as code fix contributions to the astro-koharu project.</description><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;Qwen/Qwen3-8B&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-05-13 03:56&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;h2&gt;Blog&lt;a href=&quot;#blog&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Set up CDN for transmitting static JS, CSS files of the blog, to alleviate blog pressure&lt;/li&gt;
-&lt;li&gt;Translate a large number of articles into multiple languages &lt;a href=&quot;#fast_md_fanyi&quot;&gt;Translation Tool&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Add support for article donation buttons&lt;/li&gt;
-&lt;li&gt;Add browser language detection and switch prompt function&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;fast_md_fanyi&lt;a href=&quot;#fast_md_fanyi&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Self-used blog article batch translation tool, currently in long-term maintenance&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/fast_md_fanyi&quot;&gt;https://github.com/God-2077/fast_md_fanyi&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;FriendFeed&lt;a href=&quot;#friendfeed&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Friend link article aggregation platform, currently in long-term maintenance&lt;/p&gt;
-&lt;p&gt;Website: &lt;a href=&quot;https://friendfeed.ksable.top/&quot;&gt;https://friendfeed.ksable.top/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/FriendFeed&quot;&gt;https://github.com/God-2077/FriendFeed&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;astro-koharu&lt;a href=&quot;#astro-koharu&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Mainly discovered some code issues and fixed them, but the PRs were not responded to by the author&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;fix: Fix the issue where React Grab is always enabled #184&lt;/li&gt;
-&lt;li&gt;Remove the unused pre-connected third-party domain resource prompts in Layout.astro #182&lt;/li&gt;
-&lt;li&gt;feat(LinkEmbed): Fix the issue where LinkEmbed configuration is not effective, and resolve several related issues #180&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;I don&apos;t have many close friends, and I&apos;m not familiar with most people in my class. Perhaps after the exam, everyone will go their separate ways, travel together in groups, but in their minds, their phones, and their photo albums, there will never be a trace of me. And I, a lonely person, will only become lonelier.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">en:ssn/碎碎念-近日</guid><description>This post is encrypted. Please view it on the website.</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;This post is encrypted. Please view it on the website.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item></channel></rss>

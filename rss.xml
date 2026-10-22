@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
+但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~</description><pubDate>Thu, 22 Oct 2026 15:56:42 GMT</pubDate><content:encoded>&lt;p&gt;呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~&lt;/p&gt;
+&lt;p&gt;但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~&lt;/p&gt;</content:encoded></item><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
 偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
 于是就把主站套上 EdgeOne 了
 
@@ -1448,24 +1450,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;p&gt;以往我对阮是没啥想法的，我视她为同辆公交车上的路人甲，是一起前往下一站的路人。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;高考意味着新的开始，却也意味着同样多的告别与离去。&lt;/p&gt;
-&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ssn/碎碎念-近日</guid><description>此文章已加密，请在网页中查看</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;此文章已加密，请在网页中查看&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item><item><title>碎碎念: 近期几项技术推进小结</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%9C%9F%E5%87%A0%E9%A1%B9%E6%8A%80%E6%9C%AF%E6%8E%A8%E8%BF%9B%E5%B0%8F%E7%BB%93</link><guid isPermaLink="false">ssn/碎碎念-近期几项技术推进小结</guid><description>本文介绍了博客的多项优化：使用 CDN 加速静态资源、集成多语言翻译与赞赏按钮、添加浏览器语言检测；并分享了自用的批量翻译工具 fast_md_fanyi、友链聚合平台 FriendFeed，以及对 astro-koharu 项目的代码修复贡献。</description><pubDate>Tue, 12 May 2026 16:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;博客&lt;a href=&quot;#博客&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;搭建 CDN 传输博客的静态 JS、CSS，以缓解博客压力&lt;/li&gt;
-&lt;li&gt;将大量文章翻译为多语言 &lt;a href=&quot;#fast_md_fanyi&quot;&gt;翻译工具&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;添加文章赞赏按钮支持&lt;/li&gt;
-&lt;li&gt;添加浏览器语言检测及切换提示功能&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;fast_md_fanyi&lt;a href=&quot;#fast_md_fanyi&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;自用的博客文章批量翻译工具，目前处于长久维护期中&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/fast_md_fanyi&quot;&gt;https://github.com/God-2077/fast_md_fanyi&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;FriendFeed&lt;a href=&quot;#friendfeed&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;友链文章聚合平台，目前处于长久维护期中&lt;/p&gt;
-&lt;p&gt;Website: &lt;a href=&quot;https://friendfeed.ksable.top/&quot;&gt;https://friendfeed.ksable.top/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/FriendFeed&quot;&gt;https://github.com/God-2077/FriendFeed&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;astro-koharu&lt;a href=&quot;#astro-koharu&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;主要是发现一些代码问题并修复，但提的 PR，作者都没有回复&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;fix: 修复 React Grab 总是被启用问题 #184&lt;/li&gt;
-&lt;li&gt;删除 Layout.astro 中无用的预连接第三方域名资源提示 #182&lt;/li&gt;
-&lt;li&gt;feat(LinkEmbed): 修复 LinkEmbed 配置不生效问题、以及其它相关的若干问题 #180&lt;/li&gt;
-&lt;/ol&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ssn/碎碎念-近日</guid><description>此文章已加密，请在网页中查看</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;此文章已加密，请在网页中查看&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item></channel></rss>
