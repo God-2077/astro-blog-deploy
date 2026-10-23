@@ -1,6 +1,580 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>便笺: C 语言基础语法</title><link>https://blog.ksable.top/post/note/%E4%BE%BF%E7%AC%BA-c-%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95</link><guid isPermaLink="false">note/便笺-c-语言基础语法</guid><description>C语言基础语法完整教程
+目录
+
+C语言程序结构
+编译与运行
+注释、标识符、关键字
+数据类型
+变量与常量
+运算符
+控制流
+函数
+数组
+字符串
+指针
+结构体
+输入输出与格式说明符详解
+常见错误
+完整示例
+学习建议
+
+
+
+C语言程序结构
+
+一个最基本的C程序：
+#include</description><pubDate>Fri, 23 Oct 2026 02:09:14 GMT</pubDate><content:encoded>&lt;p&gt;C语言基础语法完整教程&lt;/p&gt;
+&lt;p&gt;目录&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;C语言程序结构&lt;/li&gt;
+&lt;li&gt;编译与运行&lt;/li&gt;
+&lt;li&gt;注释、标识符、关键字&lt;/li&gt;
+&lt;li&gt;数据类型&lt;/li&gt;
+&lt;li&gt;变量与常量&lt;/li&gt;
+&lt;li&gt;运算符&lt;/li&gt;
+&lt;li&gt;控制流&lt;/li&gt;
+&lt;li&gt;函数&lt;/li&gt;
+&lt;li&gt;数组&lt;/li&gt;
+&lt;li&gt;字符串&lt;/li&gt;
+&lt;li&gt;指针&lt;/li&gt;
+&lt;li&gt;结构体&lt;/li&gt;
+&lt;li&gt;输入输出与格式说明符详解&lt;/li&gt;
+&lt;li&gt;常见错误&lt;/li&gt;
+&lt;li&gt;完整示例&lt;/li&gt;
+&lt;li&gt;学习建议&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;C语言程序结构&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一个最基本的C程序：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;#include&lt;/span&gt;&lt;span&gt; &amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;Hello, World!&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;说明：&lt;/p&gt;
+&lt;p&gt;· #include &amp;lt;stdio.h&amp;gt;：引入标准输入输出头文件，才能使用 printf、scanf。
+· int main()：主函数，程序入口。
+· { }：代码块。
+· printf：输出函数。
+· return 0;：表示程序正常结束。
+· 每条语句通常以分号 ; 结尾。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;编译与运行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;假设文件名为 main.c，使用 GCC：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;gcc&lt;/span&gt;&lt;span&gt; main.c&lt;/span&gt;&lt;span&gt; -o&lt;/span&gt;&lt;span&gt; main&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;./main&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Windows 下可生成 main.exe 后运行。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;注释、标识符、关键字&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;注释&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;// 单行注释&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;/*&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;   多行注释&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;标识符命名规则&lt;/p&gt;
+&lt;p&gt;变量名、函数名等标识符：&lt;/p&gt;
+&lt;p&gt;· 只能由字母、数字、下划线组成；
+· 不能以数字开头；
+· 区分大小写；
+· 不能使用关键字。&lt;/p&gt;
+&lt;p&gt;合法示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; age;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; student_score;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt; price2;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;常见关键字&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; char&lt;/span&gt;&lt;span&gt; float&lt;/span&gt;&lt;span&gt; double&lt;/span&gt;&lt;span&gt; if&lt;/span&gt;&lt;span&gt; else&lt;/span&gt;&lt;span&gt; for&lt;/span&gt;&lt;span&gt; while&lt;/span&gt;&lt;span&gt; do&lt;/span&gt;&lt;span&gt; switch&lt;/span&gt;&lt;span&gt; case&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;break&lt;/span&gt;&lt;span&gt; continue&lt;/span&gt;&lt;span&gt; return&lt;/span&gt;&lt;span&gt; void&lt;/span&gt;&lt;span&gt; struct&lt;/span&gt;&lt;span&gt; const&lt;/span&gt;&lt;span&gt; static&lt;/span&gt;&lt;span&gt; sizeof&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;数据类型&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;类型 含义 示例
+int 整数 int a = 10;
+short 短整型 short s = 5;
+long 长整型 long n = 100L;
+long long 更长整型 long long x = 123456789LL;
+float 单精度浮点数 float f = 3.14f;
+double 双精度浮点数 double d = 3.14159;
+char 字符 char c = ‘A’;
+void 无类型 函数无返回值&lt;/p&gt;
+&lt;p&gt;注意：C语言标准没有规定 int 一定是 4 字节，具体大小和平台有关。可以用 sizeof 查看：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%zu\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;sizeof&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt;));&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;有符号与无符号&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;signed&lt;/span&gt;&lt;span&gt; int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; -&lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;unsigned&lt;/span&gt;&lt;span&gt; int&lt;/span&gt;&lt;span&gt; b &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;unsigned 表示无符号，不能表示负数。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;变量与常量&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;变量&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; age &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 18&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt; score &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 95.5&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; grade &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &apos;A&apos;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;变量可以先声明后赋值：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;常量&lt;/p&gt;
+&lt;p&gt;使用 const：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; int&lt;/span&gt;&lt;span&gt; MAX &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 100&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用宏：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;#define&lt;/span&gt;&lt;span&gt; PI&lt;/span&gt;&lt;span&gt; 3.14159&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;const 常量有类型检查，宏是预处理替换。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;运算符&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;算术运算符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;  -&lt;/span&gt;&lt;span&gt;  *&lt;/span&gt;&lt;span&gt;  /&lt;/span&gt;&lt;span&gt;  %&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;, b &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 3&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; b);&lt;/span&gt;&lt;span&gt; // 13&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a &lt;/span&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt; b);&lt;/span&gt;&lt;span&gt; // 3，整数除法&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a &lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; b);&lt;/span&gt;&lt;span&gt; // 1，取余&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;浮点除法：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;10.0&lt;/span&gt;&lt;span&gt; /&lt;/span&gt;&lt;span&gt; 3&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // 3.333333&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;关系运算符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;==&lt;/span&gt;&lt;span&gt;  !=&lt;/span&gt;&lt;span&gt;  &amp;gt;&lt;/span&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;  &amp;gt;=&lt;/span&gt;&lt;span&gt;  &amp;lt;=&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;逻辑运算符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;&amp;amp;&amp;amp;&lt;/span&gt;&lt;span&gt;  逻辑与&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;||&lt;/span&gt;&lt;span&gt;  逻辑或&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;!&lt;/span&gt;&lt;span&gt;   逻辑非&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;赋值运算符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;  +=&lt;/span&gt;&lt;span&gt;  -=&lt;/span&gt;&lt;span&gt;  *=&lt;/span&gt;&lt;span&gt;  /=&lt;/span&gt;&lt;span&gt;  %=&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;自增自减&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;i&lt;/span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;i;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;--&lt;/span&gt;&lt;span&gt;i;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;位运算符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;  |&lt;/span&gt;&lt;span&gt;  ^&lt;/span&gt;&lt;span&gt;  ~&lt;/span&gt;&lt;span&gt;  &amp;lt;&amp;lt;&lt;/span&gt;&lt;span&gt;  &amp;gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;控制流&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;if 语句&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; score &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 85&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (score &lt;/span&gt;&lt;span&gt;&amp;gt;=&lt;/span&gt;&lt;span&gt; 90&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;优秀&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;} &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; if&lt;/span&gt;&lt;span&gt; (score &lt;/span&gt;&lt;span&gt;&amp;gt;=&lt;/span&gt;&lt;span&gt; 60&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;及格&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;} &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;不及格&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;switch 语句&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; day &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;switch&lt;/span&gt;&lt;span&gt; (day) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    case&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;星期一&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        break&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    case&lt;/span&gt;&lt;span&gt; 2&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;星期二&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        break&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    default&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;其他&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        break&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;for 循环&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;=&lt;/span&gt;&lt;span&gt; 5&lt;/span&gt;&lt;span&gt;; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt; &quot;&lt;/span&gt;&lt;span&gt;, i);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;while 循环&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;while&lt;/span&gt;&lt;span&gt; (i &lt;/span&gt;&lt;span&gt;&amp;lt;=&lt;/span&gt;&lt;span&gt; 5&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt; &quot;&lt;/span&gt;&lt;span&gt;, i);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;do-while 循环&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;do&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt; &quot;&lt;/span&gt;&lt;span&gt;, i);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;} &lt;/span&gt;&lt;span&gt;while&lt;/span&gt;&lt;span&gt; (i &lt;/span&gt;&lt;span&gt;&amp;lt;=&lt;/span&gt;&lt;span&gt; 5&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;break 与 continue&lt;/p&gt;
+&lt;p&gt;· break：跳出当前循环或 switch；
+· continue：跳过本次循环，进入下一次。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;函数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;函数定义格式：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;返回类型 函数名(参数列表) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    函数体&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; 返回值;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; b&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; b;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; result &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, result);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;函数声明：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; b&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;无返回值函数：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;void&lt;/span&gt;&lt;span&gt; printHello&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;Hello&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;数组&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;一维数组：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;访问元素：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;]);&lt;/span&gt;&lt;span&gt; // 1&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 20&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;遍历数组：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; 5&lt;/span&gt;&lt;span&gt;; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt; &quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;arr&lt;/span&gt;&lt;span&gt;[i]);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;二维数组：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; matrix&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;][&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    {&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;},&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    {&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;6&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意：数组下标从 0 开始，不能越界。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;字符串&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;C语言字符串本质是字符数组，以 ‘\0’ 结尾。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; str&lt;/span&gt;&lt;span&gt;[]&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; &quot;hello&quot;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等价于：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; str&lt;/span&gt;&lt;span&gt;[]&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span&gt;&apos;h&apos;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&apos;e&apos;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&apos;l&apos;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&apos;l&apos;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&apos;o&apos;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&apos;&lt;/span&gt;&lt;span&gt;\0&lt;/span&gt;&lt;span&gt;&apos;&lt;/span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;常用字符串函数需要包含 &amp;lt;string.h&amp;gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;#include&lt;/span&gt;&lt;span&gt; &amp;lt;string.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;strlen&lt;/span&gt;&lt;span&gt;(str);&lt;/span&gt;&lt;span&gt;        // 长度&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;strcpy&lt;/span&gt;&lt;span&gt;(dest, src);&lt;/span&gt;&lt;span&gt;  // 复制&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;strcmp&lt;/span&gt;&lt;span&gt;(a, b);&lt;/span&gt;&lt;span&gt;       // 比较&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;strcat&lt;/span&gt;&lt;span&gt;(dest, src);&lt;/span&gt;&lt;span&gt;  // 拼接&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &quot;Tom&quot;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, name);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%zu\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;strlen&lt;/span&gt;&lt;span&gt;(name));&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;指针&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;指针保存变量的地址。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &amp;amp;&lt;/span&gt;&lt;span&gt;a;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt;   // 10&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%p\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, p);&lt;/span&gt;&lt;span&gt;   // a 的地址&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 10，解引用&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;· &amp;amp;：取地址；
+· *：解引用。&lt;/p&gt;
+&lt;p&gt;通过指针修改值：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 20&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt; // 20&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;空指针：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; NULL&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;指针和数组关系密切：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; *&lt;/span&gt;&lt;span&gt;p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; arr;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;     // 1&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;(p&lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;));&lt;/span&gt;&lt;span&gt; // 2&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;结构体&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;定义结构体：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;struct&lt;/span&gt;&lt;span&gt; Person {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; age;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;struct&lt;/span&gt;&lt;span&gt; Person p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span&gt;&quot;Tom&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s&lt;/span&gt;&lt;span&gt; %d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, p.name, p.age);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;p.age &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 21&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用 typedef 简化：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;typedef&lt;/span&gt;&lt;span&gt; struct&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; age;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;} Person;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Person p &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;span&gt;&quot;Tom&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;结构体指针使用 -&amp;gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;Person &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt;ptr &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &amp;amp;&lt;/span&gt;&lt;span&gt;p;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, ptr&lt;/span&gt;&lt;span&gt;-&amp;gt;&lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;输入输出与格式说明符详解&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这是重点部分。%d、%f 等叫格式说明符，用于告诉 printf 和 scanf 按什么类型处理数据。&lt;/p&gt;
+&lt;p&gt;13.1 基本格式&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;格式字符串&quot;&lt;/span&gt;&lt;span&gt;, 变量1, 变量2, ...);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;格式字符串&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;变量1, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;变量2, ...);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注意：scanf 中普通变量前通常要加 &amp;amp; 取地址。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.2 %d：十进制整数&lt;/p&gt;
+&lt;p&gt;%d 对应 int 类型。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; b;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;常见整数格式符：&lt;/p&gt;
+&lt;p&gt;格式符 含义
+%d 有符号十进制整数 int
+%u 无符号整数 unsigned int
+%ld long
+%lld long long
+%hd short
+%x 十六进制整数
+%o 八进制整数&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 255&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt; // 255&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%x\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt; // ff&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%o\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt; // 377&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.3 %f：浮点数&lt;/p&gt;
+&lt;p&gt;%f 用于输出浮点数，默认保留 6 位小数。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt; x &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 3.14&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, x);&lt;/span&gt;&lt;span&gt; // 3.140000&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;控制小数位数：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%.2f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, x);&lt;/span&gt;&lt;span&gt; // 3.14&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;控制总宽度和小数位数：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%8.2f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, x);&lt;/span&gt;&lt;span&gt; // 宽度 8，小数 2 位&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;左对齐：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%-8.2f&lt;/span&gt;&lt;span&gt;|&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, x);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;补零：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%08.2f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, x);&lt;/span&gt;&lt;span&gt; // 00003.14&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.4 printf 与 scanf 中 %f 的区别&lt;/p&gt;
+&lt;p&gt;这是初学者最容易错的地方。&lt;/p&gt;
+&lt;p&gt;printf 输出&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt; f &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 3.14&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;double&lt;/span&gt;&lt;span&gt; d &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 3.14159&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, f);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, d);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在 printf 中，float 会自动提升为 double，所以输出 float 和 double 通常都用 %f。&lt;/p&gt;
+&lt;p&gt;scanf 输入&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;float&lt;/span&gt;&lt;span&gt; f;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;double&lt;/span&gt;&lt;span&gt; d;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;   // float 用 %f&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%lf&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // double 用 %lf&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;重点：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;   // 正确：读 float&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%lf&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 正确：读 double&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;如果 double 在 scanf 中误用 %f，会导致未定义行为，通常输入结果错误。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.5 其他常见格式符&lt;/p&gt;
+&lt;p&gt;格式符 用途 示例
+%c 单个字符 printf(“%c”, ‘A’);
+%s 字符串 printf(“%s”, str);
+%p 指针地址 printf(“%p”, p);
+%% 输出一个百分号 printf(“100%%”);
+%zu sizeof 返回值 printf(“%zu”, sizeof(int));&lt;/p&gt;
+&lt;p&gt;字符示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; c &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &apos;A&apos;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%c\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, c);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;字符串示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &quot;Tom&quot;&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, name);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;地址示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%p\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输出百分号：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;折扣：&lt;/span&gt;&lt;span&gt;%d%%\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;80&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // 折扣：80%&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.6 格式说明符完整结构&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;%[标志][宽度][.精度][长度]转换字符&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt;08.2&lt;/span&gt;&lt;span&gt;f&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;含义：&lt;/p&gt;
+&lt;p&gt;· 0：不足补零；
+· 8：总宽度 8；
+· .2：保留 2 位小数；
+· f：浮点数。&lt;/p&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%08.2f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3.14&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // 00003.14&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;常见标志：&lt;/p&gt;
+&lt;p&gt;标志 含义&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;左对齐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;显示正负号
+空格 正数前加空格
+0 不足补零&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;十六进制加 0x 等&lt;a href=&quot;#十六进制加-0x-等&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%+d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;   // +10&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%-5d&lt;/span&gt;&lt;span&gt;|&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // 10   |&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%05d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 00010&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%#x\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;255&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 0xff&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.7 scanf 使用注意事项&lt;/p&gt;
+&lt;p&gt;普通变量要加 &amp;amp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;字符数组名不需要加 &amp;amp;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%19s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, name);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;%19s 限制最多读 19 个字符，防止溢出，留一个位置给 ‘\0’。&lt;/p&gt;
+&lt;p&gt;%s 遇到空白就停止&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; s&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, s);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输入 hello world，只会读到 hello。&lt;/p&gt;
+&lt;p&gt;%c 会读取空白字符&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; c;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot; &lt;/span&gt;&lt;span&gt;%c&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;c&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // %c 前加空格可跳过空白&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;检查 scanf 返回值&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; a;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;==&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;输入成功：&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;} &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;输入失败&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;13.8 输入输出综合示例&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;#include&lt;/span&gt;&lt;span&gt; &amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; age;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    float&lt;/span&gt;&lt;span&gt; score;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    char&lt;/span&gt;&lt;span&gt; grade;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    char&lt;/span&gt;&lt;span&gt; name&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;请输入姓名：&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%19s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, name);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;请输入年龄：&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;age);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;请输入成绩：&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;score);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;请输入等级：&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot; &lt;/span&gt;&lt;span&gt;%c&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;grade);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;姓名：&lt;/span&gt;&lt;span&gt;%s\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, name);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;年龄：&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, age);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;成绩：&lt;/span&gt;&lt;span&gt;%.1f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, score);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;等级：&lt;/span&gt;&lt;span&gt;%c\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, grade);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;常见错误&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;scanf 忘记写 &amp;amp;：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, a);&lt;/span&gt;&lt;span&gt;   // 错误&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 正确&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;double 输入误用 %f：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;double&lt;/span&gt;&lt;span&gt; d;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;   // 错误&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%lf&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;d&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 正确&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;字符串数组用 scanf 加 &amp;amp;：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;char&lt;/span&gt;&lt;span&gt; s&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;20&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;  // 不推荐&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%s&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, s);&lt;/span&gt;&lt;span&gt;   // 正确&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;数组越界：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;arr&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 10&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;span&gt; // 越界&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;整数除法丢失小数：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt; /&lt;/span&gt;&lt;span&gt; 2&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt;   // 错误，结果是整数 2 转浮点&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5.0&lt;/span&gt;&lt;span&gt; /&lt;/span&gt;&lt;span&gt; 2&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;span&gt; // 正确，2.500000&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;忘记 break 导致 switch 穿透。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;完整示例：求和与平均值&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;#include&lt;/span&gt;&lt;span&gt; &amp;lt;stdio.h&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; main&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    int&lt;/span&gt;&lt;span&gt; sum &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;请输入一个正整数：&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    if&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;scanf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;&amp;amp;&lt;/span&gt;&lt;span&gt;n) &lt;/span&gt;&lt;span&gt;!=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt; ||&lt;/span&gt;&lt;span&gt; n &lt;/span&gt;&lt;span&gt;&amp;lt;=&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;输入错误&lt;/span&gt;&lt;span&gt;\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        return&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;int&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; 1&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;=&lt;/span&gt;&lt;span&gt; n; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;        sum &lt;/span&gt;&lt;span&gt;+=&lt;/span&gt;&lt;span&gt; i;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    double&lt;/span&gt;&lt;span&gt; average &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;double&lt;/span&gt;&lt;span&gt;)sum &lt;/span&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt; n;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;1 到 &lt;/span&gt;&lt;span&gt;%d&lt;/span&gt;&lt;span&gt; 的和为：&lt;/span&gt;&lt;span&gt;%d\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, n, sum);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    printf&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&quot;平均值为：&lt;/span&gt;&lt;span&gt;%.2f\n&lt;/span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;span&gt;, average);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; 0&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个程序用到了：&lt;/p&gt;
+&lt;p&gt;· int、double；
+· scanf(“%d”, &amp;amp;n)；
+· printf(“%d”)、printf(“%.2f”)；
+· for 循环；
+· 类型转换 (double)。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;学习建议&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;先掌握：变量、数据类型、printf、scanf、if、for、while。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;再重点练习：函数、数组、字符串。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后攻克：指针、结构体。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;每学一个语法点，都写一个小程序验证。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;特别注意 scanf 的 &amp;amp;、%f/%lf 区别、数组越界、整数除法。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+&lt;p&gt;一句话总结&lt;/p&gt;
+&lt;p&gt;· %d：按整数读写，通常对应 int；
+· %f：printf 输出浮点数；scanf 读 float；
+· double 输入用 %lf；
+· scanf 普通变量要加 &amp;amp;；
+· C语言基础核心是：数据类型 + 控制流 + 函数 + 数组 + 指针 + 输入输出。&lt;/p&gt;</content:encoded><category>category:便笺</category></item><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
 但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~</description><pubDate>Thu, 22 Oct 2026 15:56:42 GMT</pubDate><content:encoded>&lt;p&gt;呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~&lt;/p&gt;
-&lt;p&gt;但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~&lt;/p&gt;</content:encoded></item><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
+&lt;p&gt;但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
 偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
 于是就把主站套上 EdgeOne 了
 
@@ -1450,4 +2024,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;p&gt;以往我对阮是没啥想法的，我视她为同辆公交车上的路人甲，是一起前往下一站的路人。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;高考意味着新的开始，却也意味着同样多的告别与离去。&lt;/p&gt;
-&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ssn/碎碎念-近日</guid><description>此文章已加密，请在网页中查看</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;此文章已加密，请在网页中查看&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item></channel></rss>
+&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
