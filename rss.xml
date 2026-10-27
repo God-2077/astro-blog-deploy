@@ -1,4 +1,202 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>Posts: Astro 7 在 Termux / Android 上的构建兼容性修复记录</title><link>https://blog.ksable.top/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>记录 Astro 7 项目在 Termux / Android（aarch64）上修复 pnpm build 的完整过程，涵盖 Sätteri 缺少 Android 原生绑定时的 WASI 回退与 pnpm patch 修补，以及 Pagefind 无 Android 构建时复用 linux-arm64 静态二进制的兼容方案。</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;本文记录 Astro 7 项目在 Termux / Android 上将 &lt;code&gt;pnpm build&lt;/code&gt; 从报错修复到可完整构建的实际步骤。&lt;/p&gt;
+&lt;p&gt;Astro 7 项目本身使用 &lt;code&gt;@astrojs/markdown-remark&lt;/code&gt; 的 &lt;code&gt;unified()&lt;/code&gt; 作为 Markdown processor，但其配置 schema 会在模块加载阶段导入 &lt;code&gt;@astrojs/markdown-satteri&lt;/code&gt;。Sätteri 没有 Android 原生绑定，因此即使项目使用 &lt;code&gt;unified()&lt;/code&gt;，仍会触发 Sätteri 的原生绑定加载。&lt;/p&gt;
+&lt;h2&gt;测试环境&lt;a href=&quot;#测试环境&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;组件&lt;/th&gt;&lt;th&gt;版本&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Android&lt;/td&gt;&lt;td&gt;14 / aarch64&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Node.js&lt;/td&gt;&lt;td&gt;25.8.1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;pnpm&lt;/td&gt;&lt;td&gt;11.0.9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Astro&lt;/td&gt;&lt;td&gt;7.4.2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Pagefind&lt;/td&gt;&lt;td&gt;1.5.2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Sätteri&lt;/td&gt;&lt;td&gt;0.10.5&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;hr /&gt;
+&lt;h2&gt;1. Sätteri 没有 Android 原生绑定&lt;a href=&quot;#1-sätteri-没有-android-原生绑定&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;现象&lt;a href=&quot;#现象&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;Cannot find native binding. npm has a bug related to optional dependencies...&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;cause: Error: Cannot find module &apos;@bruits/satteri-android-arm64&apos;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;astro check&lt;/code&gt; 在加载配置阶段就失败，尚未开始处理内容。&lt;/p&gt;
+&lt;h3&gt;定位&lt;a href=&quot;#定位&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;@astrojs/markdown-satteri&lt;/code&gt; 依赖 &lt;code&gt;satteri&lt;/code&gt;。&lt;code&gt;satteri@0.10.5&lt;/code&gt; 的 &lt;code&gt;optionalDependencies&lt;/code&gt; 只有：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;@bruits/satteri-linux-x64-gnu&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-linux-arm64-gnu&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-linux-x64-musl&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-linux-arm64-musl&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-darwin-x64&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-darwin-arm64&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-win32-x64-msvc&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-win32-arm64-msvc&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;@bruits/satteri-wasm32-wasi&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;其中没有 &lt;code&gt;android-arm64&lt;/code&gt;。不过 &lt;code&gt;satteri&lt;/code&gt; 的 binding loader 包含 Android 分支和 WASI 回退：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (process.platform &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &apos;android&apos;&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  if&lt;/span&gt;&lt;span&gt; (process.arch &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &apos;arm64&apos;&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    try&lt;/span&gt;&lt;span&gt; { &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&apos;./satteri_napi.android-arm64.node&apos;&lt;/span&gt;&lt;span&gt;) } &lt;/span&gt;&lt;span&gt;catch&lt;/span&gt;&lt;span&gt; (e) { &lt;/span&gt;&lt;span&gt;...&lt;/span&gt;&lt;span&gt; }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;...&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;!&lt;/span&gt;&lt;span&gt;nativeBinding &lt;/span&gt;&lt;span&gt;||&lt;/span&gt;&lt;span&gt; forceWasi) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  try&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    wasiBinding &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;&apos;@bruits/satteri-wasm32-wasi&apos;&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    nativeBinding &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; wasiBinding&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  } &lt;/span&gt;&lt;span&gt;catch&lt;/span&gt;&lt;span&gt; (err) { &lt;/span&gt;&lt;span&gt;...&lt;/span&gt;&lt;span&gt; }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;因此直接使用 WASI 包即可，不需要编译 Android 原生模块。&lt;/p&gt;
+&lt;h3&gt;修复&lt;a href=&quot;#修复&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;安装 WASI 回退：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; add&lt;/span&gt;&lt;span&gt; -D&lt;/span&gt;&lt;span&gt; @bruits/satteri-wasm32-wasi@0.10.5&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;安装后，&lt;code&gt;satteri&lt;/code&gt; 能找到 WASI binding，但会报第二个错误：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;Error: UVWASI_EACCES, uvwasi_init&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;原因是 WASI 初始化时把 &lt;code&gt;/&lt;/code&gt; 作为 preopen：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; __rootDir&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; __nodePath.&lt;/span&gt;&lt;span&gt;parse&lt;/span&gt;&lt;span&gt;(process.&lt;/span&gt;&lt;span&gt;cwd&lt;/span&gt;&lt;span&gt;()).root&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; __wasi&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; new&lt;/span&gt;&lt;span&gt; __nodeWASI&lt;/span&gt;&lt;span&gt;({&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  version: &lt;/span&gt;&lt;span&gt;&apos;preview1&apos;&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  env: process.env,&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  preopens: {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    [__rootDir]: __rootDir,&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;})&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Android 不允许预打开根目录，因此改为 &lt;code&gt;process.cwd()&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; patch&lt;/span&gt;&lt;span&gt; @bruits/satteri-wasm32-wasi@0.10.5&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;编辑 pnpm 输出的临时目录：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;node_modules/.pnpm_patches/@bruits/satteri-wasm32-wasi@0.10.5/satteri_napi.wasi.cjs&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;-&lt;/span&gt;const __rootDir = __nodePath.parse(process.cwd()).root&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;const __rootDir = process.cwd()&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;node_modules/.pnpm_patches/@bruits/satteri-wasm32-wasi@0.10.5/wasi-worker.mjs&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;-&lt;/span&gt;const __rootDir = parse(process.cwd()).root;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;const __rootDir = process.cwd();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;提交补丁：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; patch-commit&lt;/span&gt;&lt;span&gt; node_modules/.pnpm_patches/@bruits/satteri-wasm32-wasi@0.10.5&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;仓库中最终生成：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;patches/@bruits__satteri-wasm32-wasi@0.10.5.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;注意事项&lt;a href=&quot;#注意事项&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pnpm patch-commit&lt;/code&gt; 有时会显示 &lt;code&gt;Already up to date&lt;/code&gt;，但已安装的 &lt;code&gt;node_modules&lt;/code&gt; 里仍是旧文件。不要用 &lt;code&gt;pnpm install --force&lt;/code&gt; 解决，直接删掉重装：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;rm&lt;/span&gt;&lt;span&gt; -rf&lt;/span&gt;&lt;span&gt; node_modules&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; install&lt;/span&gt;&lt;span&gt; --frozen-lockfile&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;验证 Sätteri 能加载：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;node&lt;/span&gt;&lt;span&gt; -e&lt;/span&gt;&lt;span&gt; &quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;const { createRequire } = require(&apos;module&apos;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;const r = createRequire(process.cwd() + &apos;/node_modules/.pnpm/satteri@0.10.5/node_modules/satteri/index.js&apos;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;const m = r(&apos;satteri&apos;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;console.log(&apos;satteri OK&apos;, Object.keys(m).length);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&quot;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;输出 &lt;code&gt;satteri OK 34&lt;/code&gt;，并伴随一条 &lt;code&gt;ExperimentalWarning: WASI is an experimental feature&lt;/code&gt;，属于正常现象。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2. Pagefind 缺少 Android 构建（若使用 Pagefind）&lt;a href=&quot;#2-pagefind-缺少-android-构建若使用-pagefind&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;h3&gt;现象&lt;a href=&quot;#现象-1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;astro build&lt;/code&gt; 已经完成，&lt;code&gt;postbuild&lt;/code&gt; 阶段失败：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;$ pagefind --site dist&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Failed to install either of [pagefind_extended, pagefind].&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Most likely the platform android-arm64 is not yet a supported architecture.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;定位&lt;a href=&quot;#定位-1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pagefind/lib/resolveBinary.js&lt;/code&gt; 直接按 &lt;code&gt;process.platform&lt;/code&gt; 拼接包名：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; cpu&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; process.env.npm_config_arch &lt;/span&gt;&lt;span&gt;||&lt;/span&gt;&lt;span&gt; os.&lt;/span&gt;&lt;span&gt;arch&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; platform&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; process.platform &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &quot;win32&quot;&lt;/span&gt;&lt;span&gt; ?&lt;/span&gt;&lt;span&gt; &quot;windows&quot;&lt;/span&gt;&lt;span&gt; :&lt;/span&gt;&lt;span&gt; process.platform;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; execname&lt;/span&gt;&lt;span&gt; of&lt;/span&gt;&lt;span&gt; execnames) {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  const&lt;/span&gt;&lt;span&gt; executable&lt;/span&gt;&lt;span&gt; =&lt;/span&gt;&lt;span&gt; platform &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &quot;windows&quot;&lt;/span&gt;&lt;span&gt; ?&lt;/span&gt;&lt;span&gt; `${&lt;/span&gt;&lt;span&gt;execname&lt;/span&gt;&lt;span&gt;}.exe`&lt;/span&gt;&lt;span&gt; :&lt;/span&gt;&lt;span&gt; execname;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  try&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    return&lt;/span&gt;&lt;span&gt; require.&lt;/span&gt;&lt;span&gt;resolve&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;`@pagefind/${&lt;/span&gt;&lt;span&gt;platform&lt;/span&gt;&lt;span&gt;}-${&lt;/span&gt;&lt;span&gt;cpu&lt;/span&gt;&lt;span&gt;}/bin/${&lt;/span&gt;&lt;span&gt;executable&lt;/span&gt;&lt;span&gt;}`&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  } &lt;/span&gt;&lt;span&gt;catch&lt;/span&gt;&lt;span&gt; (e) {}&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;没有 &lt;code&gt;@pagefind/android-arm64&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;但 &lt;code&gt;@pagefind/linux-arm64&lt;/code&gt; 里的 &lt;code&gt;pagefind_extended&lt;/code&gt; 是静态链接 musl 的 aarch64 二进制：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV),&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;statically linked, stripped&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在 Termux 上可以直接执行，不需要 proot / glibc-runner。实测：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;./package/bin/pagefind_extended&lt;/span&gt;&lt;span&gt; --version&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;# pagefind 1.5.2&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;./package/bin/pagefind_extended&lt;/span&gt;&lt;span&gt; --site&lt;/span&gt;&lt;span&gt; dist&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;# Indexed 21 pages&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;因此只需要解决两件事：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;让 pnpm 在 Android 上安装 &lt;code&gt;@pagefind/linux-arm64&lt;/code&gt;；&lt;/li&gt;
+&lt;li&gt;让 Pagefind wrapper 在 Android 上查找 &lt;code&gt;linux-arm64&lt;/code&gt;，而不是 &lt;code&gt;android-arm64&lt;/code&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;修复 A：让 pnpm 安装 linux-arm64 可选包&lt;a href=&quot;#修复-a让-pnpm-安装-linux-arm64-可选包&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;pnpm-workspace.yaml&lt;/code&gt; 中增加：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;supportedArchitectures&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  os&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    - &lt;/span&gt;&lt;span&gt;current&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    - &lt;/span&gt;&lt;span&gt;linux&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  cpu&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    - &lt;/span&gt;&lt;span&gt;current&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;  libc&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;    - &lt;/span&gt;&lt;span&gt;current&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这样 pnpm 会把 &lt;code&gt;os: [&quot;linux&quot;]&lt;/code&gt;、&lt;code&gt;cpu: [&quot;arm64&quot;]&lt;/code&gt; 的可选包也链接进来。Android arm64 上会安装：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;node_modules/.pnpm/@pagefind+linux-arm64@1.5.2/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;副作用：pnpm 11.0.9 会顺带安装其他包的 linux-arm64 gnu/musl 变体（sharp、rolldown、biome、lightningcss、oxc 等），&lt;code&gt;node_modules&lt;/code&gt; 约 680MB。这属于安装体积问题，不影响 Android 上实际加载的包。&lt;/p&gt;
+&lt;h3&gt;修复 B：让 Pagefind 识别 Android&lt;a href=&quot;#修复-b让-pagefind-识别-android&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; patch&lt;/span&gt;&lt;span&gt; pagefind@1.5.2&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;编辑 &lt;code&gt;node_modules/.pnpm_patches/pagefind@1.5.2/lib/resolveBinary.js&lt;/code&gt;：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;&lt;span&gt;-&lt;/span&gt;const platform = process.platform === &quot;win32&quot; ? &quot;windows&quot; : process.platform;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;const platform =&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;  process.platform === &quot;win32&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;    ? &quot;windows&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;    : process.platform === &quot;android&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;      ? &quot;linux&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;span&gt;+&lt;/span&gt;      : process.platform;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;提交：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; patch-commit&lt;/span&gt;&lt;span&gt; node_modules/.pnpm_patches/pagefind@1.5.2&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;生成：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;patches/pagefind@1.5.2.patch&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个映射在非 Android 平台上不会改变行为。&lt;/p&gt;
+&lt;h3&gt;注意事项&lt;a href=&quot;#注意事项-1&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;同样不要用 &lt;code&gt;pnpm install --force&lt;/code&gt;。之前实测它会安装所有平台的 optionalDependencies（Windows、macOS、Linux x64/mips 等），直接把磁盘写满。&lt;/p&gt;
+&lt;p&gt;补丁没生效时：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;rm&lt;/span&gt;&lt;span&gt; -rf&lt;/span&gt;&lt;span&gt; node_modules&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; install&lt;/span&gt;&lt;span&gt; --frozen-lockfile&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;验证：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;./node_modules/.bin/pagefind&lt;/span&gt;&lt;span&gt; --version&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;# pagefind 1.5.2&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;./node_modules/.bin/pagefind&lt;/span&gt;&lt;span&gt; --site&lt;/span&gt;&lt;span&gt; dist&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;# Indexed 21 pages&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3. 最终验证&lt;a href=&quot;#3-最终验证&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; build&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;实际结果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;astro check: 0 errors / 0 warnings&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;astro build: 48 page(s) built&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;pagefind:    Indexed 21 pages&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; test&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;实际结果：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;tests 13&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;pass 13&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;fail 0&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;build assertions passed: 21 indexed pages, 20 default RSS items&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; lint&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;# Checked 79 files. No fixes applied.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;code&gt;pnpm dev --host 127.0.0.1&lt;/code&gt; 和 &lt;code&gt;pnpm preview --host 127.0.0.1&lt;/code&gt; 均返回 HTTP 200。Astro 7 的 dev/preview 会在后台运行，停止方式如下：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; exec&lt;/span&gt;&lt;span&gt; astro&lt;/span&gt;&lt;span&gt; dev&lt;/span&gt;&lt;span&gt; stop&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;pnpm&lt;/span&gt;&lt;span&gt; exec&lt;/span&gt;&lt;span&gt; astro&lt;/span&gt;&lt;span&gt; preview&lt;/span&gt;&lt;span&gt; stop&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</content:encoded><category>category:文章</category></item><item><title>碎碎念: 26-10-22</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-22</link><guid isPermaLink="false">ssn/碎碎念-26-10-22</guid><description>呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~
 但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~</description><pubDate>Thu, 22 Oct 2026 15:56:42 GMT</pubDate><content:encoded>&lt;p&gt;呜呜喵~ 昨晚做了个好可怕的噩梦，可人家醒来后，却怎么也想不起梦里的内容了喵~&lt;/p&gt;
 &lt;p&gt;但人家昨晚没睡好，现在有点头疼，脑袋昏昏的喵~&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: 26-10-20</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-10-20</link><guid isPermaLink="false">ssn/碎碎念-26-10-20</guid><description>在学校里，用的电信网有时打不开自己的博客
 偶然刷到篇 EdgeOne，又考虑到网站现在的速度……
@@ -1450,4 +1648,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 &lt;p&gt;以往我对阮是没啥想法的，我视她为同辆公交车上的路人甲，是一起前往下一站的路人。&lt;/p&gt;
 &lt;p&gt;—&lt;/p&gt;
 &lt;p&gt;高考意味着新的开始，却也意味着同样多的告别与离去。&lt;/p&gt;
-&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>🔒 碎碎念: 期末 · A</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E8%BF%91%E6%97%A5</link><guid isPermaLink="false">ssn/碎碎念-近日</guid><description>此文章已加密，请在网页中查看</description><pubDate>Tue, 12 May 2026 18:59:53 GMT</pubDate><content:encoded>&lt;p&gt;此文章已加密，请在网页中查看&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-2</category></item></channel></rss>
+&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
