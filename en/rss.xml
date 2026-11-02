@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>Posts: Astro 7 Build Compatibility Fix Notes on Termux / Android</title><link>https://blog.ksable.top/en/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">en:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Documenting the complete process of fixing `pnpm build` for an Astro 7 project on Termux / Android (aarch64), covering the WASI fallback and `pnpm patch` workaround when Sätteri lacks Android native bindings, as well as the compatibility solution of reusing the linux-arm64 static binary when Pagefind has no Android build.</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">en:ssn/碎碎念-daybook-一个好看的日记站</guid><description>daybook-desktop-light
+一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。
+Github: https://github.com/God-2077/astro-daybook
+Demo:</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/God-2077/astro-daybook/refs/heads/main/docs/images/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/astro-daybook&quot;&gt;https://github.com/God-2077/astro-daybook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Demo: &lt;a href=&quot;https://daybook.demo.ksable.top/&quot;&gt;https://daybook.demo.ksable.top/&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;人家做了一周才做好呢~&lt;/p&gt;</content:encoded></item><item><title>Posts: Astro 7 Build Compatibility Fix Notes on Termux / Android</title><link>https://blog.ksable.top/en/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">en:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Documenting the complete process of fixing `pnpm build` for an Astro 7 project on Termux / Android (aarch64), covering the WASI fallback and `pnpm patch` workaround when Sätteri lacks Android native bindings, as well as the compatibility solution of reusing the linux-arm64 static binary when Pagefind has no Android build.</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-flash&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-10-27 10:20&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
@@ -1692,23 +1700,4 @@ AI</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded
 &lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;All my esteemed teachers shared the last of their exam-taking wisdom, every word filled with parting concern, and ended with sincere wishes. The moment the bell rang, we hurriedly finished the final class of high school, and years of hard study came to an abrupt close.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>Rambling: Final Exams · C</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">en:ssn/碎碎念-期末-c</guid><description>
-Translated by AI model deepseek-v4-flash.
-Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28.
-AI</description><pubDate>Fri, 15 May 2026 15:03:36 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;2026.5.15.&lt;/p&gt;
-&lt;p&gt;Before evening self-study today, it started pouring rain.&lt;/p&gt;
-&lt;p&gt;(These days, you have to be careful going out, because a sudden downpour might fall from the sky)&lt;/p&gt;
-&lt;p&gt;Many people came to the classroom wearing slippers. Ruan was no exception.&lt;/p&gt;
-&lt;p&gt;She was wearing a short-sleeved shirt, leaving her smooth arms exposed. Her pants were just rolled up to her knees, perfectly revealing her calves.&lt;/p&gt;
-&lt;p&gt;She was thinly dressed, giving off a fragile vibe that stirred a desire to protect her.&lt;/p&gt;
-&lt;p&gt;In my eyes, she looked somewhat enticing.&lt;/p&gt;
-&lt;p&gt;My mental state lately seems a bit off.&lt;/p&gt;
-&lt;p&gt;In the past, I never really thought much of Ruan. I saw her as just random passenger on the same bus, a passerby heading to the next stop together with me.&lt;/p&gt;
-&lt;p&gt;--&lt;/p&gt;
-&lt;p&gt;The college entrance exam means a new beginning, but it also means just as many goodbyes and departures.&lt;/p&gt;
-&lt;p&gt;I don&apos;t have many close friends, and I&apos;m not familiar with most people in my class. Perhaps after the exam, everyone will go their separate ways, travel together in groups, but in their minds, their phones, and their photo albums, there will never be a trace of me. And I, a lonely person, will only become lonelier.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
+&lt;p&gt;All my esteemed teachers shared the last of their exam-taking wisdom, every word filled with parting concern, and ended with sincere wishes. The moment the bell rang, we hurriedly finished the final class of high school, and years of hard study came to an abrupt close.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>

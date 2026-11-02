@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>Posts: Astro 7 在 Termux / Android 上的构建兼容性修复记录</title><link>https://blog.ksable.top/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>记录 Astro 7 项目在 Termux / Android（aarch64）上修复 pnpm build 的完整过程，涵盖 Sätteri 缺少 Android 原生绑定时的 WASI 回退与 pnpm patch 修补，以及 Pagefind 无 Android 构建时复用 linux-arm64 静态二进制的兼容方案。</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ssn/碎碎念-daybook-一个好看的日记站</guid><description>daybook-desktop-light
+一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。
+Github: https://github.com/God-2077/astro-daybook
+Demo:</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://raw.githubusercontent.com/God-2077/astro-daybook/refs/heads/main/docs/images/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。&lt;/p&gt;
+&lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/astro-daybook&quot;&gt;https://github.com/God-2077/astro-daybook&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Demo: &lt;a href=&quot;https://daybook.demo.ksable.top/&quot;&gt;https://daybook.demo.ksable.top/&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;人家做了一周才做好呢~&lt;/p&gt;</content:encoded></item><item><title>Posts: Astro 7 在 Termux / Android 上的构建兼容性修复记录</title><link>https://blog.ksable.top/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>记录 Astro 7 项目在 Termux / Android（aarch64）上修复 pnpm build 的完整过程，涵盖 Sätteri 缺少 Android 原生绑定时的 WASI 回退与 pnpm patch 修补，以及 Pagefind 无 Android 构建时复用 linux-arm64 静态二进制的兼容方案。</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;h2&gt;前言&lt;a href=&quot;#前言&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;本文记录 Astro 7 项目在 Termux / Android 上将 &lt;code&gt;pnpm build&lt;/code&gt; 从报错修复到可完整构建的实际步骤。&lt;/p&gt;
 &lt;p&gt;Astro 7 项目本身使用 &lt;code&gt;@astrojs/markdown-remark&lt;/code&gt; 的 &lt;code&gt;unified()&lt;/code&gt; 作为 Markdown processor，但其配置 schema 会在模块加载阶段导入 &lt;code&gt;@astrojs/markdown-satteri&lt;/code&gt;。Sätteri 没有 Android 原生绑定，因此即使项目使用 &lt;code&gt;unified()&lt;/code&gt;，仍会触发 Sätteri 的原生绑定加载。&lt;/p&gt;
 &lt;h2&gt;测试环境&lt;a href=&quot;#测试环境&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -1631,21 +1639,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 本地开发，先克隆 astro-blog 仓库，再克隆</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;p&gt;好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。&lt;/p&gt;
 &lt;p&gt;一个公开仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;)，一个私有仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog-content&lt;/a&gt;)，通过自动化流程构建博客，构建产物推送到 &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-deploy&lt;/a&gt; 仓库。&lt;/p&gt;
 &lt;p&gt;本地开发，先克隆 astro-blog 仓库，再克隆 astro-blog-content 仓库，用软链接挂载博客文章等资源。&lt;/p&gt;
-&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 期末 · C</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E6%9C%9F%E6%9C%AB-c</link><guid isPermaLink="false">ssn/碎碎念-期末-c</guid><description>2026.5.15.
-今天上晚自习前，天下起了大雨。
-（这段时间，出门要小心，因为天上可能突降暴雨）
-很多人来教室时，都是穿拖鞋。阮也不意外。
-她穿着件短袖，露出那光滑的手臂。裤子刚挽到膝盖处，恰到好处地将小腿裸露在外面。
-她衣着单薄，给人一种弱弱的感觉，激起人的保护欲。
-令她在我眼中，有些诱人。</description><pubDate>Fri, 15 May 2026 15:03:36 GMT</pubDate><content:encoded>&lt;p&gt;2026.5.15.&lt;/p&gt;
-&lt;p&gt;今天上晚自习前，天下起了大雨。&lt;/p&gt;
-&lt;p&gt;（这段时间，出门要小心，因为天上可能突降暴雨）&lt;/p&gt;
-&lt;p&gt;很多人来教室时，都是穿拖鞋。阮也不意外。&lt;/p&gt;
-&lt;p&gt;她穿着件短袖，露出那光滑的手臂。裤子刚挽到膝盖处，恰到好处地将小腿裸露在外面。&lt;/p&gt;
-&lt;p&gt;她衣着单薄，给人一种弱弱的感觉，激起人的保护欲。&lt;/p&gt;
-&lt;p&gt;令她在我眼中，有些诱人。&lt;/p&gt;
-&lt;p&gt;我最近的精神状态似乎有些不太正常。&lt;/p&gt;
-&lt;p&gt;以往我对阮是没啥想法的，我视她为同辆公交车上的路人甲，是一起前往下一站的路人。&lt;/p&gt;
-&lt;p&gt;—&lt;/p&gt;
-&lt;p&gt;高考意味着新的开始，却也意味着同样多的告别与离去。&lt;/p&gt;
-&lt;p&gt;我没什么要好的朋友，和班里很多人都不熟。或许高考后，大家各奔东西，结伴旅游，但他们的脑海中，手机里，相册中都未曾留下过我的痕迹。而我，一个孤单的人变得更孤单了。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item></channel></rss>
+&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
