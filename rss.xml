@@ -5,10 +5,10 @@ GTA5 还是玩一两个小时就腻了，都找不到初中时玩游戏的哪种
 &lt;p&gt;睡觉啊，睡觉真舒服呢，一直睡到中午才起，然后玩了把 GTA5，GTA5 载具的手感就是比异环的好多了。&lt;/p&gt;
 &lt;p&gt;GTA5 还是玩一两个小时就腻了，都找不到初中时玩游戏的哪种投入了，我想，这是电子阳痿了吧&lt;/p&gt;
 &lt;p&gt;玩了会 GTA5，然后看了几小时的代码(&lt;code&gt;pixiv-proxy&lt;/code&gt;)，结果写着写着头越来越疼了。&lt;/p&gt;
-&lt;p&gt;不知是看电脑看久了，还是代码写的太差了，头疼呐&lt;/p&gt;
+&lt;p&gt;不知是看电脑看久了，还是看到代码质量太差了，头疼呐&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;pixiv-proxy&lt;/code&gt; 几月前做的个 pixiv 图片代理服务，最初好像就几十行代码，所以也没做啥规范&lt;/p&gt;
 &lt;p&gt;后来加了些速率限制、缓存机制，又弄了个 pixiv api，就更新到两千多行了。&lt;/p&gt;
-&lt;p&gt;但我代码写的太差了，代码基本都是我查查资料，然后随便塞了段代码进去。&lt;/p&gt;
+&lt;p&gt;但我这代码写的太差了，代码基本都是我查查资料，然后随便塞了段代码进去。&lt;/p&gt;
 &lt;p&gt;现在已经是小屎山了&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;kissablecho@computer-name MINGW64 ~/code/worker/pixiv-proxy/src (main)&lt;/span&gt;&lt;/span&gt;
 &lt;span&gt;&lt;span&gt;$ hmh&lt;/span&gt;&lt;/span&gt;
