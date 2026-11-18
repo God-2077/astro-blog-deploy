@@ -1,10 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ja:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>つぶやき：2026-11-18</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">ja:ssn/碎碎念-26-11-18</guid><description>
+AIモデル deepseek-flash による翻訳。
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。
+
+furina</description><pubDate>Wed, 18 Nov 2026 11:10:22 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18/furina.webp&quot; alt=&quot;furina&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;furina&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;寝るのって、ほんと気持ちいいよね。昼までぐっすり寝て、やっと起きた。それからGTA5をちょっと遊んだ。GTA5の乗り物の操作感は、やっぱり異環よりずっと良い。&lt;/p&gt;
+&lt;p&gt;GTA5はやっぱり1、2時間遊ぶと飽きちゃう。中学生の頃にゲームへ没頭していたあの感覚は、もう見つからない。たぶんこれが電子EDってやつなんだろうな。&lt;/p&gt;
+&lt;p&gt;GTA5を少し遊んで、それから数時間&lt;code&gt;pixiv-proxy&lt;/code&gt;のコードを眺めた。そしたら、いじっているうちにどんどん頭が痛くなってきた。&lt;/p&gt;
+&lt;p&gt;パソコンを見すぎたからか、それともコードがひどすぎるからか、頭が痛いなあ。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pixiv-proxy&lt;/code&gt;は数か月前に作ったpixiv画像プロキシサービスで、最初はたしか数十行のコードだけだったから、特にコーディング規約も決めてなかった。&lt;/p&gt;
+&lt;p&gt;その後、レート制限やキャッシュの仕組みを追加して、さらにpixiv apiも作ったら、2,000行以上に増えてしまった。&lt;/p&gt;
+&lt;p&gt;でも自分のコードはひどすぎる。コードのほとんどは、ちょっと調べては適当にコードをぶち込んだだけだ。&lt;/p&gt;
+&lt;p&gt;今ではもう小さなクソコードの山になってる。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;kissablecho@computer-name MINGW64 ~/code/worker/pixiv-proxy/src (main)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;$ hmh&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;hmh  ·  read-only project analysis&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;path      ~/code/worker/pixiv-proxy/src&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanned   34 files (32 source · 1 binary)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;size      1.0 MB&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;lines     28,172  =  code 19,481  ·  comments 8,066  ·  blank 625&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;comments  0.414 per code line&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;duration  632 ms&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;LANGUAGE    FILES    CODE  COMMENTS  BLANK  SHARE&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;----------  -----  ------  --------  -----  -----&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;TypeScript     25  10,973     8,060    313  56.3%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;YAML            3   8,354         6    307  42.9%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;JSON            3     138         0      0   0.7%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Markdown        1      16         0      5   0.1%&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;GTA6のライブ配信をちょっと見た。とても楽しみだ。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;microsoft/onnxruntimeリポジトリがなぜか使えなくなって、そのせいでブログの自動ビルドが失敗してしまった。&lt;/p&gt;
+&lt;p&gt;w(ﾟДﾟ)w ああ～ ソースを引っ張ってきてローカルでビルドしないといけないのか。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>つぶやき：Daybook - 素敵な日記サイト</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ja:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— Astro ベースの静的ブログテーマ。Markdown で日々を書き留め、静かで素朴な、検索できる個人ブログを構築します。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;一ページずつゆっくり読める日記サイト —— Astro ベースの静的ブログテーマ。Markdown で毎日を綴り、静かで素朴で、検索もできる個人ブログに仕上げます。&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/astro-daybook&quot;&gt;God-2077/astro-daybook&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Demo: &lt;a href=&quot;https://daybook.demo.ksable.top/&quot;&gt;https://daybook.demo.ksable.top/&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;人家做了一周才做好呢~&lt;/p&gt;
-&lt;p&gt;觉得不错的话，能点个 Star 吗？&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>投稿：Termux / Android における Astro 7 のビルド互換性修正記録</title><link>https://blog.ksable.top/ja/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">ja:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Astro 7 プロジェクトを Termux / Android（aarch64）上で pnpm build できるよう修正した全過程を記録する。Sätteri に Android 向けネイティブバインディングがない場合の WASI フォールバックと pnpm patch によるパッチ適用、さらに Pagefind に Android 向けビルドが存在しない場合に linux-arm64 の静的バイナリを再利用する互換ソリューションを網羅する。</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;作るのに一週間もかかったんだからね〜&lt;/p&gt;
+&lt;p&gt;気に入ってくれたら、Star を付けてもらえるかな？&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>投稿：Termux / Android における Astro 7 のビルド互換性修正記録</title><link>https://blog.ksable.top/ja/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">ja:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Astro 7 プロジェクトを Termux / Android（aarch64）上で pnpm build できるよう修正した全過程を記録する。Sätteri に Android 向けネイティブバインディングがない場合の WASI フォールバックと pnpm patch によるパッチ適用、さらに Pagefind に Android 向けビルドが存在しない場合に linux-arm64 の静的バイナリを再利用する互換ソリューションを網羅する。</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
 &lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-10-27 10:23&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
@@ -555,12 +599,12 @@ AI翻訳は参考に限り、内容の完全な正確性を保証できません
 &lt;div&gt;点击我&lt;/div&gt;
 </content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>つぶやき：ピンクの小さなスカートだよ</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%B0%8F%E8%A3%99%E5%AD%90%E5%93%9F</link><guid isPermaLink="false">ja:ssn/碎碎念-粉红色的小裙子哟</guid><description>ピンクの小さなスカートだよ！ちょっと自分に惚れちゃいそう。。。</description><pubDate>Sun, 06 Sep 2026 16:13:00 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-10-27 10:22&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;ピンク色の小さなスカートだよ！&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%B0%8F%E8%A3%99%E5%AD%90%E5%93%9F/IMG_20260907_000032.webp&quot; alt=&quot;粉红色的小裙子&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;粉红色的小裙子&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;ちょっと自分に惚れちゃいそう。。。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>つぶやき: 26-09-06</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-09-06</link><guid isPermaLink="false">ja:ssn/碎碎念-26-09-06</guid><description>
+&lt;p&gt;ちょっと自分に惚れちゃったかも。。。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>つぶやき: 26-09-06</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-09-06</link><guid isPermaLink="false">ja:ssn/碎碎念-26-09-06</guid><description>
 AIモデル deepseek-flash による翻訳。
 原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-10-27 10:22。
 AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sun, 06 Sep 2026 09:57:49 GMT</pubDate><content:encoded>&lt;div&gt;
@@ -1698,12 +1742,4 @@ AI翻訳は参考に限り、内容の完全な正確性を保証できません
 &lt;/div&gt;
 &lt;p&gt;昨日だったかな、ブログ更新して、ソースコードと記事内容を2つのリポジトリに分割しました。&lt;/p&gt;
 &lt;p&gt;公開リポジトリ（&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;）とプライートリポジ（&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog&lt;/a&gt;）です。自動化フローでブログを構築し、成果物を &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-de&lt;/a&gt; リポジトリにプッシュします。&lt;/p&gt;
-&lt;p&gt;ローカル開発では、まず astro-blog リポジトリをクロし、次に astro-blog-content リポジトリをクローンして、シンボリックリンクでブログ記事などのリソースをマウントしますブログのソースコードと記事コンテンツの分離が完璧に実現できました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>つぶやき: 26-06-06</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-06</guid><description>
-AIモデル deepseek-v4-flash による翻訳。
-原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。
-AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;AIモデル &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;諸先生方が惜しみなく授けてくださった受験の秘訣、一言一句には別れの際の思いやりが込められており、最後には心からの期待が添えられていました。ベルが鳴り響いた刹那、私たちは慌ただしく高校最後の授業を終え、長年にわたる寒窓での努力も、こうしてあっけなく幕を閉じました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;ローカル開発では、まず astro-blog リポジトリをクロし、次に astro-blog-content リポジトリをクローンして、シンボリックリンクでブログ記事などのリソースをマウントしますブログのソースコードと記事コンテンツの分離が完璧に実現できました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>

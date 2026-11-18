@@ -1,10 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">en:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>Random thoughts: 2026-11-18</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">en:ssn/碎碎念-26-11-18</guid><description>
+Translated by AI model deepseek-flash.
+Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-11-18 21:13.
+AI</description><pubDate>Wed, 18 Nov 2026 11:10:22 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-flash&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-11-18 21:13&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18/furina.webp&quot; alt=&quot;furina&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;furina&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;Ah, sleep—sleeping is so comfortable. I slept all the way until noon before getting up, then played a round of GTA5. The vehicle handling in GTA5 is way better than in Neverness to Everness.&lt;/p&gt;
+&lt;p&gt;Still, I get bored of GTA5 after an hour or two. I can&apos;t even find that kind of engagement I had when playing games in middle school. I guess this is electronic impotence, huh.&lt;/p&gt;
+&lt;p&gt;Played GTA5 for a while, then spent a few hours reading code (&lt;code&gt;pixiv-proxy&lt;/code&gt;). As I kept writing, my head hurt more and more.&lt;/p&gt;
+&lt;p&gt;I don&apos;t know whether it&apos;s from staring at the computer too long or because my code is too badly written. My head hurts.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pixiv-proxy&lt;/code&gt; is a pixiv image proxy service I made a few months ago. At first it was probably only a few dozen lines of code, so I didn&apos;t really follow any conventions.&lt;/p&gt;
+&lt;p&gt;Later I added some rate limiting, caching mechanisms, and also made a pixiv api, and it grew to over two thousand lines.&lt;/p&gt;
+&lt;p&gt;But my code is too badly written. Most of the code is basically me looking stuff up and then casually stuffing a snippet in.&lt;/p&gt;
+&lt;p&gt;Now it&apos;s already a small shit mountain.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;kissablecho@computer-name MINGW64 ~/code/worker/pixiv-proxy/src (main)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;$ hmh&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;hmh  ·  read-only project analysis&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;path      ~/code/worker/pixiv-proxy/src&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanned   34 files (32 source · 1 binary)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;size      1.0 MB&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;lines     28,172  =  code 19,481  ·  comments 8,066  ·  blank 625&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;comments  0.414 per code line&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;duration  632 ms&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;LANGUAGE    FILES    CODE  COMMENTS  BLANK  SHARE&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;----------  -----  ------  --------  -----  -----&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;TypeScript     25  10,973     8,060    313  56.3%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;YAML            3   8,354         6    307  42.9%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;JSON            3     138         0      0   0.7%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Markdown        1      16         0      5   0.1%&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;Checked out a GTA6 livestream. Really looking forward to it.&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;For some reason the microsoft/onnxruntime repository became unavailable, which caused my blog&apos;s automated build to fail.&lt;/p&gt;
+&lt;p&gt;w(ﾟДﾟ)w Ahhh~ I still have to pull down the source code and build it locally.&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>Musings: Daybook - a beautiful diary site</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">en:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook — an Astro-based static blog theme: write down each day in Markdown and build it into a quiet, understated, searchable personal blog.</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-flash&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-11-18 21:13&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;A diary site you can read slowly, one page at a time — a static blog theme built on Astro. Write down each day in Markdown, and build it into a quiet, clean, searchable personal blog.&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/astro-daybook&quot;&gt;God-2077/astro-daybook&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Demo: &lt;a href=&quot;https://daybook.demo.ksable.top/&quot;&gt;https://daybook.demo.ksable.top/&lt;/a&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;人家做了一周才做好呢~&lt;/p&gt;
-&lt;p&gt;觉得不错的话，能点个 Star 吗？&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>Posts: Astro 7 Build Compatibility Fix Notes on Termux / Android</title><link>https://blog.ksable.top/en/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">en:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Documenting the complete process of fixing `pnpm build` for an Astro 7 project on Termux / Android (aarch64), covering the WASI fallback and `pnpm patch` workaround when Sätteri lacks Android native bindings, as well as the compatibility solution of reusing the linux-arm64 static binary when Pagefind has no Android build.</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;It took me a whole week to finish it~&lt;/p&gt;
+&lt;p&gt;If you think it’s nice, could you give it a Star?&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>Posts: Astro 7 Build Compatibility Fix Notes on Termux / Android</title><link>https://blog.ksable.top/en/post/post/posts-astro-7-%E5%9C%A8-termux-android-%E4%B8%8A%E7%9A%84%E6%9E%84%E5%BB%BA%E5%85%BC%E5%AE%B9%E6%80%A7%E4%BF%AE%E5%A4%8D%E8%AE%B0%E5%BD%95</link><guid isPermaLink="false">en:post/posts-astro-7-在-termux-android-上的构建兼容性修复记录</guid><description>Documenting the complete process of fixing `pnpm build` for an Astro 7 project on Termux / Android (aarch64), covering the WASI fallback and `pnpm patch` workaround when Sätteri lacks Android native bindings, as well as the compatibility solution of reusing the linux-arm64 static binary when Pagefind has no Android build.</description><pubDate>Tue, 27 Oct 2026 02:16:07 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-flash&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-10-27 10:20&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
@@ -552,10 +594,10 @@ AI</description><pubDate>Tue, 20 Oct 2026 15:50:40 GMT</pubDate><content:encoded
 &lt;div&gt;点击我&lt;/div&gt;
 </content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>Random muttering: A little pink skirt, oh~</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%B0%8F%E8%A3%99%E5%AD%90%E5%93%9F</link><guid isPermaLink="false">en:ssn/碎碎念-粉红色的小裙子哟</guid><description>A little pink skirt! I&apos;m starting to like myself a bit...</description><pubDate>Sun, 06 Sep 2026 16:13:00 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-flash&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-10-27 10:19&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-11-18 21:13&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;The little pink skirt!&lt;/p&gt;
+&lt;p&gt;The little pink dress!&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-%E7%B2%89%E7%BA%A2%E8%89%B2%E7%9A%84%E5%B0%8F%E8%A3%99%E5%AD%90%E5%93%9F/IMG_20260907_000032.webp&quot; alt=&quot;粉红色的小裙子&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;粉红色的小裙子&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;I&apos;m starting to like myself a little...&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>Random thoughts: 26-09-06</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-09-06</link><guid isPermaLink="false">en:ssn/碎碎念-26-09-06</guid><description>
 Translated by AI model deepseek-flash.
@@ -1690,12 +1732,4 @@ AI</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded
 &lt;p&gt;It seems like yesterday, I updated my blog, splitting the source code and article content into two repositories.&lt;/p&gt;
 &lt;p&gt;A public repository (&lt;a href=&quot;https://github.com/God-7/astro-blog&quot;&gt;astro-blog&lt;/a&gt;) and a private repository (&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog-content&lt;/a&gt;). The blog is built an automated pipeline, and the build artifacts are pushed to the &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-deploy&lt;/a&gt; repository.&lt;/p&gt;
 &lt;p&gt;For local development, first clone the astro-blog repository, then clone the astro-blog-content repository, and mount the blog articles and other resources via symlinks.&lt;/p&gt;
-&lt;p&gt;Perfectly achieved separation of blog source code and article content.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>Murmur: 26-06-06</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-06</guid><description>
-Translated by AI model deepseek-v4-flash.
-Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28.
-AI</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;All my esteemed teachers shared the last of their exam-taking wisdom, every word filled with parting concern, and ended with sincere wishes. The moment the bell rang, we hurriedly finished the final class of high school, and years of hard study came to an abrupt close.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;Perfectly achieved separation of blog source code and article content.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>

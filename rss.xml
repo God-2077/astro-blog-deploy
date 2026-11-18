@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s 小屋</title><description>一个记录生活，分享技术的博客</description><link>https://blog.ksable.top</link><item><title>碎碎念: 2026-11-18</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">ssn/碎碎念-26-11-18</guid><description>furina
+睡觉啊，睡觉真舒服呢，一直睡到中午才起，然后玩了把 GTA5，GTA5 载具的手感就是比异环的好多了。
+GTA5 还是玩一两个小时就腻了，都找不到初中时玩游戏的哪种投入了，我想，这是电子阳痿了吧
+玩了会</description><pubDate>Wed, 18 Nov 2026 11:10:22 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18/furina.webp&quot; alt=&quot;furina&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;furina&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;睡觉啊，睡觉真舒服呢，一直睡到中午才起，然后玩了把 GTA5，GTA5 载具的手感就是比异环的好多了。&lt;/p&gt;
+&lt;p&gt;GTA5 还是玩一两个小时就腻了，都找不到初中时玩游戏的哪种投入了，我想，这是电子阳痿了吧&lt;/p&gt;
+&lt;p&gt;玩了会 GTA5，然后看了几小时的代码(&lt;code&gt;pixiv-proxy&lt;/code&gt;)，结果写着写着头越来越疼了。&lt;/p&gt;
+&lt;p&gt;不知是看电脑看久了，还是代码写的太差了，头疼呐&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pixiv-proxy&lt;/code&gt; 几月前做的个 pixiv 图片代理服务，最初好像就几十行代码，所以也没做啥规范&lt;/p&gt;
+&lt;p&gt;后来加了些速率限制、缓存机制，又弄了个 pixiv api，就更新到两千多行了。&lt;/p&gt;
+&lt;p&gt;但我代码写的太差了，代码基本都是我查查资料，然后随便塞了段代码进去。&lt;/p&gt;
+&lt;p&gt;现在已经是小屎山了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;kissablecho@computer-name MINGW64 ~/code/worker/pixiv-proxy/src (main)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;$ hmh&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;hmh  ·  read-only project analysis&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;path      ~/code/worker/pixiv-proxy/src&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;scanned   34 files (32 source · 1 binary)&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;size      1.0 MB&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;lines     28,172  =  code 19,481  ·  comments 8,066  ·  blank 625&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;comments  0.414 per code line&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;duration  632 ms&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;LANGUAGE    FILES    CODE  COMMENTS  BLANK  SHARE&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;----------  -----  ------  --------  -----  -----&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;TypeScript     25  10,973     8,060    313  56.3%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;YAML            3   8,354         6    307  42.9%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;JSON            3     138         0      0   0.7%&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;Markdown        1      16         0      5   0.1%&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr /&gt;
+&lt;p&gt;看了下 GTA6 的直播，很期待&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;microsoft/onnxruntime 仓库不知怎么不可用了，导致我博客自动构建失败了&lt;/p&gt;
+&lt;p&gt;w(ﾟДﾟ)w 啊啊~ 还得拉下源码本地构建&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>碎碎念: Daybook - 一个好看的日记站</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-Daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99/preview-desktop-light.png&quot; alt=&quot;daybook-desktop-light&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;daybook-desktop-light&lt;/figcaption&gt;&lt;/figure&gt;
 &lt;p&gt;一页可以慢慢读的日记站 —— 一个基于 Astro 的静态博客主题，用 Markdown 写下每天，构建成安静、素净、能搜索的个人博客。&lt;/p&gt;
 &lt;p&gt;Github: &lt;a href=&quot;https://github.com/God-2077/astro-daybook&quot;&gt;God-2077/astro-daybook&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Demo: &lt;a href=&quot;https://daybook.demo.ksable.top/&quot;&gt;https://daybook.demo.ksable.top/&lt;/a&gt;&lt;/p&gt;
@@ -1637,4 +1669,4 @@ Alice In Cradle 好玩，推荐。本文将教你把 Alice In Cradle 的马赛�
 本地开发，先克隆 astro-blog 仓库，再克隆</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;p&gt;好像是昨天来着，更新了下博客，把源码和文章内容拆成两个仓库了。&lt;/p&gt;
 &lt;p&gt;一个公开仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;)，一个私有仓库(&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog-content&lt;/a&gt;)，通过自动化流程构建博客，构建产物推送到 &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-deploy&lt;/a&gt; 仓库。&lt;/p&gt;
 &lt;p&gt;本地开发，先克隆 astro-blog 仓库，再克隆 astro-blog-content 仓库，用软链接挂载博客文章等资源。&lt;/p&gt;
-&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item><item><title>碎碎念: 26-06-06</title><link>https://blog.ksable.top/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-06</link><guid isPermaLink="false">ssn/碎碎念-26-06-06</guid><description>诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。</description><pubDate>Sat, 06 Jun 2026 15:27:35 GMT</pubDate><content:encoded>&lt;p&gt;诸位恩师倾囊余下的应试诀窍，字字都是临别惦念，末了送上诚挚期许。铃声落下的刹那，我们匆匆走完了高中最后一堂课，数载寒窗，就此仓促收梢。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;p&gt;完美实现了 博客源码 与 文章内容 的分离。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
