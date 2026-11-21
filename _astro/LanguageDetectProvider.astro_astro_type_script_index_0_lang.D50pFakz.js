@@ -1,0 +1,1 @@
+import{i}from"./language-detect.C6shonRP.js";import"./config.B636WSTJ.js";import"./site-config.DYeEQZSb.js";import"./umami-stats.UwoLEf6B.js";import"./site.CzxBue2z.js";import"./index.3whys8t3.js";function t(){i()}document.readyState!=="loading"&&t();document.addEventListener("astro:page-load",t);
