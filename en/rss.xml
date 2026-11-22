@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>Random thoughts: 2026-11-18</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">en:ssn/碎碎念-26-11-18</guid><description>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksable&apos;s Nest</title><description>A blog about life &amp; tech</description><link>https://blog.ksable.top</link><language>en</language><item><title>碎碎念: 26-11-22</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22</link><guid isPermaLink="false">en:ssn/碎碎念-26-11-22</guid><description>一直觉得 “程序设计基础” 老师讲课讲的很差，
+但今天我要收回那句话，她这哪是差，她教的代码跟坨屎似的
+一上课就给我表演了个俄罗斯套娃嵌套，拿个 if-else 在那套娃
+
+至少写个 if、else-if 都比那 if-else 好
+数组也不用，在那手工算数，两个字，抽象
+1</description><pubDate>Sun, 22 Nov 2026 04:26:59 GMT</pubDate><content:encoded>&lt;p&gt;一直觉得 “程序设计基础” 老师讲课讲的很差，&lt;/p&gt;
+&lt;p&gt;但今天我要收回那句话，她这哪是差，她教的代码跟坨屎似的&lt;/p&gt;
+&lt;p&gt;一上课就给我表演了个俄罗斯套娃嵌套，拿个 &lt;code&gt;if-else&lt;/code&gt; 在那套娃&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/image-1.webp&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;至少写个 &lt;code&gt;if、else-if&lt;/code&gt; 都比那 &lt;code&gt;if-else&lt;/code&gt; 好&lt;/p&gt;
+&lt;p&gt;数组也不用，在那手工算数，两个字，抽象&lt;/p&gt;
+&lt;p&gt;1&lt;a href=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/iamge-2.webp&quot;&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>Random thoughts: 2026-11-18</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">en:ssn/碎碎念-26-11-18</guid><description>
 Translated by AI model deepseek-flash.
 Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-11-18 21:13.
 AI</description><pubDate>Wed, 18 Nov 2026 11:10:22 GMT</pubDate><content:encoded>&lt;div&gt;
@@ -1721,15 +1733,4 @@ AI</description><pubDate>Tue, 21 Jul 2026 15:33:39 GMT</pubDate><content:encoded
 &lt;li&gt;Paused by Wallpaper Engine&apos;s built-in &lt;code&gt;setPaused&lt;/code&gt; event, no additional configuration needed&lt;/li&gt;
 &lt;li&gt;Pause &lt;strong&gt;does not immediately interrupt&lt;/strong&gt; the current timing cycle, but stops after the current switch completes&lt;/li&gt;
 &lt;li&gt;Automatically resumes the timer upon restoration, continuing normal operation&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:文章</category></item><item><title>Ramblings: 26-06-14</title><link>https://blog.ksable.top/en/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">en:ssn/碎碎念-26-06-14</guid><description>
-Translated by AI model deepseek-v4-flash.
-Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28.
-AI</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;div&gt;
-&lt;p&gt;Translated by AI model &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;Source Language: Simplified Chinese, Target Language: english, Translation Time: 2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;.&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;AI translation is for reference only. Accuracy is not guaranteed, please refer to the original text.&lt;/strong&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;It seems like yesterday, I updated my blog, splitting the source code and article content into two repositories.&lt;/p&gt;
-&lt;p&gt;A public repository (&lt;a href=&quot;https://github.com/God-7/astro-blog&quot;&gt;astro-blog&lt;/a&gt;) and a private repository (&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog-content&lt;/a&gt;). The blog is built an automated pipeline, and the build artifacts are pushed to the &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-deploy&lt;/a&gt; repository.&lt;/p&gt;
-&lt;p&gt;For local development, first clone the astro-blog repository, then clone the astro-blog-content repository, and mount the blog articles and other resources via symlinks.&lt;/p&gt;
-&lt;p&gt;Perfectly achieved separation of blog source code and article content.&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
+&lt;/ul&gt;</content:encoded><category>category:文章</category></item></channel></rss>
