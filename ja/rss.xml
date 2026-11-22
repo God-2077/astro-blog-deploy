@@ -1,55 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>碎碎念: 26-11-22</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22</link><guid isPermaLink="false">ja:ssn/碎碎念-26-11-22</guid><description>一直觉得 “程序设计基础” 老师讲课讲的很差，
-但今天我要收回那句话，她这哪是差，她教的代码跟坨屎似的
-一上课就给我表演了个俄罗斯套娃嵌套，拿个 if-else 在那套娃
-
-至少写个 if、else-if 都比那 if-else 好
-数组也不用，在那手工算数，两个字，抽象
-1</description><pubDate>Sun, 22 Nov 2026 04:26:59 GMT</pubDate><content:encoded>&lt;p&gt;一直觉得 “程序设计基础” 老师讲课讲的很差，&lt;/p&gt;
-&lt;p&gt;但今天我要收回那句话，她这哪是差，她教的代码跟坨屎似的&lt;/p&gt;
-&lt;p&gt;一上课就给我表演了个俄罗斯套娃嵌套，拿个 &lt;code&gt;if-else&lt;/code&gt; 在那套娃&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/image-1.webp&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;&lt;/figure&gt;
-&lt;p&gt;至少写个 &lt;code&gt;if、else-if&lt;/code&gt; 都比那 &lt;code&gt;if-else&lt;/code&gt; 好&lt;/p&gt;
-&lt;p&gt;数组也不用，在那手工算数，两个字，抽象&lt;/p&gt;
-&lt;p&gt;1&lt;a href=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/iamge-2.webp&quot;&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>つぶやき：2026-11-18</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18</link><guid isPermaLink="false">ja:ssn/碎碎念-26-11-18</guid><description>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="/rss/feed.xsl" type="text/xsl"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Ksableの小屋</title><description>生活を記録し、技術を共有するブログ</description><link>https://blog.ksable.top</link><language>ja</language><item><title>つぶやき: 26-11-22</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22</link><guid isPermaLink="false">ja:ssn/碎碎念-26-11-22</guid><description>
 AIモデル deepseek-flash による翻訳。
-原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14。
-AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。
-
-furina</description><pubDate>Wed, 18 Nov 2026 11:10:22 GMT</pubDate><content:encoded>&lt;div&gt;
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-22 13:23。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sun, 22 Nov 2026 04:26:59 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
-&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-22 13:23&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
 &lt;/div&gt;
-&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-18/furina.webp&quot; alt=&quot;furina&quot; loading=&quot;lazy&quot; /&gt;&lt;figcaption&gt;furina&lt;/figcaption&gt;&lt;/figure&gt;
-&lt;p&gt;寝るのって、ほんと気持ちいいよね。昼までぐっすり寝て、やっと起きた。それからGTA5をちょっと遊んだ。GTA5の乗り物の操作感は、やっぱり異環よりずっと良い。&lt;/p&gt;
-&lt;p&gt;GTA5はやっぱり1、2時間遊ぶと飽きちゃう。中学生の頃にゲームへ没頭していたあの感覚は、もう見つからない。たぶんこれが電子EDってやつなんだろうな。&lt;/p&gt;
-&lt;p&gt;GTA5を少し遊んで、それから数時間&lt;code&gt;pixiv-proxy&lt;/code&gt;のコードを眺めた。そしたら、いじっているうちにどんどん頭が痛くなってきた。&lt;/p&gt;
-&lt;p&gt;パソコンを見すぎたからか、それともコードがひどすぎるからか、頭が痛いなあ。&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pixiv-proxy&lt;/code&gt;は数か月前に作ったpixiv画像プロキシサービスで、最初はたしか数十行のコードだけだったから、特にコーディング規約も決めてなかった。&lt;/p&gt;
-&lt;p&gt;その後、レート制限やキャッシュの仕組みを追加して、さらにpixiv apiも作ったら、2,000行以上に増えてしまった。&lt;/p&gt;
-&lt;p&gt;でも自分のコードはひどすぎる。コードのほとんどは、ちょっと調べては適当にコードをぶち込んだだけだ。&lt;/p&gt;
-&lt;p&gt;今ではもう小さなクソコードの山になってる。&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&lt;span&gt;&lt;span&gt;kissablecho@computer-name MINGW64 ~/code/worker/pixiv-proxy/src (main)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;$ hmh&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;hmh  ·  read-only project analysis&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;path      ~/code/worker/pixiv-proxy/src&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;scanned   34 files (32 source · 1 binary)&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;size      1.0 MB&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;lines     28,172  =  code 19,481  ·  comments 8,066  ·  blank 625&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;comments  0.414 per code line&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;duration  632 ms&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;LANGUAGE    FILES    CODE  COMMENTS  BLANK  SHARE&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;----------  -----  ------  --------  -----  -----&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;TypeScript     25  10,973     8,060    313  56.3%&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;YAML            3   8,354         6    307  42.9%&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;JSON            3     138         0      0   0.7%&lt;/span&gt;&lt;/span&gt;
-&lt;span&gt;&lt;span&gt;Markdown        1      16         0      5   0.1%&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;hr /&gt;
-&lt;p&gt;GTA6のライブ配信をちょっと見た。とても楽しみだ。&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;microsoft/onnxruntimeリポジトリがなぜか使えなくなって、そのせいでブログの自動ビルドが失敗してしまった。&lt;/p&gt;
-&lt;p&gt;w(ﾟДﾟ)w ああ～ ソースを引っ張ってきてローカルでビルドしないといけないのか。&lt;/p&gt;</content:encoded><category>category:碎碎念</category></item><item><title>つぶやき：Daybook - 素敵な日記サイト</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ja:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— Astro ベースの静的ブログテーマ。Markdown で日々を書き留め、静かで素朴な、検索できる個人ブログを構築します。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;ずっと「プログラミング基礎」の先生の授業はひどいと思ってた。&lt;/p&gt;
+&lt;p&gt;でも今日、その言葉を撤回する。彼女のこれは下手なんてもんじゃない、教えてるコードがクソみたいなんだ&lt;/p&gt;
+&lt;p&gt;授業が始まるやいなや、ロシアのマトリョーシカみたいな入れ子を披露してきた。&lt;code&gt;if-else&lt;/code&gt; でマトリョーシカしてた。&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/image-1.webp&quot; alt=&quot;&quot; loading=&quot;lazy&quot; /&gt;&lt;/figure&gt;
+&lt;p&gt;せめて &lt;code&gt;if、else-if&lt;/code&gt; って書くだけでも、その &lt;code&gt;if-else&lt;/code&gt; よりマシだ。&lt;/p&gt;
+&lt;p&gt;配列も使わず、そこで手計算。二言で言うと、抽象的。&lt;/p&gt;
+&lt;p&gt;1&lt;a href=&quot;https://k-pan.edgeone.ksable.top/blog/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-11-22/iamge-2.webp&quot;&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-3</category></item><item><title>つぶやき：Daybook - 素敵な日記サイト</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-daybook-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84%E6%97%A5%E8%AE%B0%E7%AB%99</link><guid isPermaLink="false">ja:ssn/碎碎念-daybook-一个好看的日记站</guid><description>Daybook —— Astro ベースの静的ブログテーマ。Markdown で日々を書き留め、静かで素朴な、検索できる個人ブログを構築します。</description><pubDate>Mon, 02 Nov 2026 01:58:56 GMT</pubDate><content:encoded>&lt;div&gt;
 &lt;p&gt;AIモデル &lt;strong&gt;deepseek-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
 &lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-11-18 21:14&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
@@ -1744,4 +1707,14 @@ AI翻訳は参考に限り、内容の完全な正確性を保証できません
 &lt;li&gt;ポーズはWallpaper Engineの内蔵&lt;code&gt;setPaused&lt;/code&gt;イベントによって駆動され、追加の設定は不要&lt;/li&gt;
 &lt;li&gt;ポーズ後も現在のタイマー周期が終わるまで一言とスライドショーを即座に停止しない&lt;/li&gt;
 &lt;li&gt;再開後は自動的にタイマーを再開し、正常に動作し続ける&lt;/li&gt;
-&lt;/ul&gt;</content:encoded><category>category:文章</category></item></channel></rss>
+&lt;/ul&gt;</content:encoded><category>category:文章</category></item><item><title>つぶやき 26-06-14</title><link>https://blog.ksable.top/ja/post/ssn/%E7%A2%8E%E7%A2%8E%E5%BF%B5-26-06-14</link><guid isPermaLink="false">ja:ssn/碎碎念-26-06-14</guid><description>
+AIモデル deepseek-v4-flash による翻訳。
+原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28。
+AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。</description><pubDate>Sun, 14 Jun 2026 05:16:42 GMT</pubDate><content:encoded>&lt;div&gt;
+&lt;p&gt;AIモデル &lt;strong&gt;deepseek-v4-flash&lt;/strong&gt; による翻訳。&lt;/p&gt;
+&lt;p&gt;原文言語：Simplified Chinese、翻訳先言語：japanese、翻訳時間：2026-06-14 15:28&lt;/p&gt;&lt;div&gt;&lt;/div&gt;。&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AI翻訳は参考に限り、内容の完全な正確性を保証できません。原文をご参照ください。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;昨日だったかな、ブログ更新して、ソースコードと記事内容を2つのリポジトリに分割しました。&lt;/p&gt;
+&lt;p&gt;公開リポジトリ（&lt;a href=&quot;https://github.com/God-2077/astro-blog&quot;&gt;astro-blog&lt;/a&gt;）とプライートリポジ（&lt;a href=&quot;https://github.com/God-2077/astro-blog-content&quot;&gt;astro-blog&lt;/a&gt;）です。自動化フローでブログを構築し、成果物を &lt;a href=&quot;https://github.com/God-2077/astro-blog-deploy&quot;&gt;astro-blog-de&lt;/a&gt; リポジトリにプッシュします。&lt;/p&gt;
+&lt;p&gt;ローカル開発では、まず astro-blog リポジトリをクロし、次に astro-blog-content リポジトリをクローンして、シンボリックリンクでブログ記事などのリソースをマウントしますブログのソースコードと記事コンテンツの分離が完璧に実現できました。&lt;/p&gt;</content:encoded><category>category:碎碎念</category><category>tag:S-5</category></item></channel></rss>
